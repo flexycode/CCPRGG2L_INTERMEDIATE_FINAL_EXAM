@@ -105,8 +105,6 @@ Construct a JAVA OOP program using Java Swing GUI environment for Personal New B
 
 
 
-
-
 The program will store all the information “NewAccount.txt” for the storage of the bank account, the program has feature of Deposit, Withdraw and Balance Inquiry. The initial deposit is the constant value 500 in the registration. Account No. will start at this default value. 2024100000. – new  
 
 #### Program Requirements  
@@ -116,9 +114,61 @@ The program will store all the information “NewAccount.txt” for the storage 
 * Set an Exception handling to avoid Errors. 
 
 ```bash
-coming soon
+Features and Tree Structure down below  
 ```
 
+#### Features 
+- Create new bank accounts with unique account numbers and account holder names.
+- Deposit money into existing accounts.  
+- Withdraw money from existing accounts, with checks for sufficient balance.
+- Check the current balance of an account.
+- Display detailed information about an account
+- Registration Form Fantastic Background ( Video or Animated similar style when developing in NextJS)
+- GUI for Login Form, Registration Form, Bank Account, etc 
+- Sound Effect ( Japanese voice prompt)
+
+#### Code Structure
+
+Artificial Ledger Bank diagram tree     
+```bash
+ArtificialLedger.java
+│
+├── ArtificialLedgerApp.java    
+│   ├── TBD
+│   └── TBD
+│
+├── BalancePanel.java  
+│   ├── TBD
+│   └── TBD
+│
+├── DataStorage.java    
+│   ├── TBD
+│   └── TBD 
+│
+├── MainFrame.java  
+│   ├── TBD
+│   └── TBD
+│   
+└── PlaceHolderTextfield.java        
+│   ├── TBD
+│   ├── TBD
+│   ├── TBD  
+│   ├── TBD
+│   └── TBD
+│ 
+├── MainFrame.java  
+│   ├── TBD
+│   └── TBD
+│
+├── SignUpFrame.java       
+│   ├── TBD 
+│   └── TBD
+│
+├── WithdrawPanel.java        
+│   ├── TBD 
+│   └── TBD
+│
+```
 
 # 🏆 Contributing   
 
@@ -153,7 +203,7 @@ If you would like to contribute to the Banking System, please follow these steps
 
 ###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
 
-# 🔑 License  
+# 🔑 License   
 
 # 📫 Changelogs 
 
