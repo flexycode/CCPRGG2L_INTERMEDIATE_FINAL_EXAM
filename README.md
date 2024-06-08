@@ -1,10 +1,10 @@
 # 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P        
-### Group Name: Artificial Ledger  
-### Subject & Section: CCPRGG2L COM23P1   
-### Professor: Jay D. Abaleta          
+### Group Name: [Artificial Ledger](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  🇵🇭
+### Subject & Section: 🧚‍♂️ [CCPRGG1L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)               
 ### No. of Units: 3 Units
-### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)
-### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)
+### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)  
+### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)             
 
 # 📊 Table of Contents
 
@@ -14,7 +14,7 @@
 - [Contributing](#contributing)       
 - [License](#licensee)   
 - [Acknowledgements](#acknowledgements) 
-- [FAQ](#faq)      
+- [FAQ](#faq)       
 - [Changelog](#changelogs)  
 
 ## [Introduction](#introduction)
@@ -31,7 +31,7 @@ At the end of the course, the studend must be able to:
 
 ###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM
 
-# 💻 Lesson 
+# 💻 Lesson   
 
 ### CCPRGG1L Table lecture
 #### Course Outline and Timeframe
