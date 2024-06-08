@@ -9,9 +9,9 @@
 # 📊 Table of Contents
 
 - [Introduction](#introduction)
-- [Lesson](#lesson)      
-- [Exercise](#%EF%B8%8Fexercise)
-- [Contributing](#contributing)       
+- [Lesson](#lesson)           
+- [Final Project](#finalproject)
+- [Contributing](#contributing)         
 - [License](#licensee)   
 - [Acknowledgements](#acknowledgements) 
 - [FAQ](#faq)       
@@ -30,9 +30,9 @@ At the end of the course, the studend must be able to:
 2. Implement Object-Oriented in program design
 3. Create and document application that uses a modern graphical user interface (GUI)
 
-###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM 
+###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM  
 
-# 💻 Lesson      
+## [Lesson](#lesson)              
 
 ### CCPRGG1L Table lecture
 #### Course Outline and Timeframe
@@ -72,7 +72,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM         
+#### 💻 GRADING SYSTEM            
 
 Other Learning Activities (20%)
 
@@ -82,11 +82,11 @@ Long Exams (40%)
 
 Final Exam/Project (40%)
 
-# ✍ Final Project
+## [Final Project](#finalproject)
  
-## Final Group Project Task
+### 🔒 Artificial Ledger Technology Banking System 
 
-#### Machine Problem:    
+#### Machine Problem:     
 
 Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information: 
 
