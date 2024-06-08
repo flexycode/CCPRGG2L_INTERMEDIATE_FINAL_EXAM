@@ -67,11 +67,11 @@ At the end of the course, the studend must be able to:
 * Core Java: Volume II Advanced Features Tenth Edition, Hortsmann, Cay S., 2017
 * Java Precisely Third Edition, Peter Sestoft, 2016
 
-#### COURSE REQUIREMENTS
+#### 💻 COURSE REQUIREMENTS
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### GRADING SYSTEM
+#### 💻 GRADING SYSTEM     
 
 Other Learning Activities (20%)
 
@@ -82,6 +82,38 @@ Long Exams (40%)
 Final Exam/Project (40%)
 
 # ✍ Final Project
+ 
+## Final Group Project 
+
+#### Machine Problem:    
+
+Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information: 
+
+| Registration Form |
+|-------------------|
+| Username:         |
+| Password:         |
+| Pin code:         |
+| First Name:       |
+| Middle Name:      |
+| Last Name:        |
+| Birthdate:        |
+| Gender:           |
+| Address:          |
+| Father Name:      |
+| Mother Name:      |
+| Contact No:       |
+| Initial Deposit: 500 |
+
+The program will store all the information “NewAccount.txt” for the storage of the bank account, the program has feature of Deposit, Withdraw and Balance Inquiry. The initial deposit is the constant value 500 in the registration. Account No. will start at this default value. 2024100000. – new  
+
+
+#### Program Requirements  
+
+* Secure the Username and Password 
+
+* Set an Exception handling to avoid Errors. 
+
 ```bash
 coming soon
 ```
