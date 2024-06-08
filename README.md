@@ -83,7 +83,7 @@ Final Exam/Project (40%)
 
 # ✍ Final Project
  
-## Final Group Project 
+## Final Group Project Task
 
 #### Machine Problem:    
 
