@@ -10,7 +10,7 @@
 
 - [Introduction](#introduction)
 - [Lesson](#lesson)           
-- [Final Project](#final)
+- [Final Project](#final-project) 
 - [Contributing](#contributing)           
 - [License](#licensee)   
 - [Acknowledgements](#acknowledgements) 
