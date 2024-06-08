@@ -1,9 +1,9 @@
 # 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P        
 ### Group Name: [Artificial Ledger Technology](https://github.com/Artificial-Ledger-Technology)  🇵🇭
-### Subject & Section: 🧚‍♂️ [CCPRGG1L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
-### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                
+### Subject & Section: 🧚‍♂️ [CCPRGG2L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                 
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
-### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)    
+### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)       
 ### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)             
 
 # 📊 Table of Contents
@@ -17,8 +17,9 @@
 - [FAQ](#faq)       
 - [Changelog](#changelogs)  
 
+
 ## [Introduction](#introduction)
-This repository contains source code for our final project for java that focuses on Intermediate concepts, codes and exercises.
+This repository contains source code for our final project for intermediate java that focuses on Intermediate concepts, codes and exercises.
 
 #### Course Description:
 This course is a continuation of CCPRGG1L - Fundamentals of Programming. The course covers advanced topics in Java to train students in developing robust programs. Topics to be covered include recursion, regular expression, basic object-oriented principles, graphics, and multithreaded programming.
@@ -29,7 +30,7 @@ At the end of the course, the studend must be able to:
 2. Implement Object-Oriented in program design
 3. Create and document application that uses a modern graphical user interface (GUI)
 
-###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM
+###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM 
 
 # 💻 Lesson      
 
@@ -43,7 +44,7 @@ At the end of the course, the studend must be able to:
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |  
 |          |               | - Ø Course Syllabi                                  |                                                                                                     | 
 |          |               | - Ø Lab Guidelines and Safety Review                |                                                                                                     |
-| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |
+| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        | 
 | 3        | April 13      | File and String manipulation                         | Chapter 7&13 Java Programming Eight Edition, Farrell, Joyce                                       |
 | 4        | April 20      | Recursion                                            | Chapter 2 Introduction to Programming in Java: An Interdisciplinary Approach, 2nd Edition, Robert Sedgewick |
 |          | April 27      |                                                      | Chapter 13 Java Programming: From Problem Analysis to Program Design, Fifth Edition, Malik, DS     |
@@ -71,7 +72,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM       
+#### 💻 GRADING SYSTEM         
 
 Other Learning Activities (20%)
 
