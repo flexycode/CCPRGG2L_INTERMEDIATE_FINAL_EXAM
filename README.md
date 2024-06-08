@@ -10,12 +10,12 @@
 
 - [Introduction](#introduction)
 - [Lesson](#lesson)           
-- [Final Project](#finalproject)
-- [Contributing](#contributing)         
+- [Final Project](#final)
+- [Contributing](#contributing)           
 - [License](#licensee)   
 - [Acknowledgements](#acknowledgements) 
 - [FAQ](#faq)       
-- [Changelog](#changelogs)  
+- [Changelog](#changelogs)   
 
 
 ## [Introduction](#introduction)
@@ -44,7 +44,7 @@ At the end of the course, the studend must be able to:
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |  
 |          |               | - Ø Course Syllabi                                  |                                                                                                     | 
 |          |               | - Ø Lab Guidelines and Safety Review                |                                                                                                     |
-| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        | 
+| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |  
 | 3        | April 13      | File and String manipulation                         | Chapter 7&13 Java Programming Eight Edition, Farrell, Joyce                                       |
 | 4        | April 20      | Recursion                                            | Chapter 2 Introduction to Programming in Java: An Interdisciplinary Approach, 2nd Edition, Robert Sedgewick |
 |          | April 27      |                                                      | Chapter 13 Java Programming: From Problem Analysis to Program Design, Fifth Edition, Malik, DS     |
@@ -72,7 +72,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM            
+#### 💻 GRADING SYSTEM             
 
 Other Learning Activities (20%)
 
@@ -82,7 +82,7 @@ Long Exams (40%)
 
 Final Exam/Project (40%)
 
-## [Final Project](#finalproject)
+## [Final Project](#final)   
  
 ### 🔒 Artificial Ledger Technology Banking System 
 
@@ -97,7 +97,7 @@ Construct a JAVA OOP program using Java Swing GUI environment for Personal New B
 | Birthdate:                  | Father Name:        |
 | Mother Name:                | Contact No:         |
 | Address:                    | Pin code:           |
-|-----------------------------|---------------------|
+|-----------------------------|---------------------| 
 | Username:                   | Password:           |
 |                             |                     |
 |                             |                     |
