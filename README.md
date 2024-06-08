@@ -1,9 +1,9 @@
 # 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P        
-### Group Name: [Artificial Ledger](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  🇵🇭
+### Group Name: [Artificial Ledger Technology](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCPRGG1L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
-### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)               
-### No. of Units: 3 Units
-### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)  
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                
+### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
+### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)    
 ### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)             
 
 # 📊 Table of Contents
@@ -31,7 +31,7 @@ At the end of the course, the studend must be able to:
 
 ###### ⚡ Course Outline: ACO -CI-F- 030(01) Course Outline - CCPRGG2L - COM
 
-# 💻 Lesson   
+# 💻 Lesson      
 
 ### CCPRGG1L Table lecture
 #### Course Outline and Timeframe
@@ -117,3 +117,43 @@ The program will store all the information “NewAccount.txt” for the storage 
 ```bash
 coming soon
 ```
+
+
+# 🏆 Contributing   
+
+### Contributing  
+If you would like to contribute to the Banking System, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
+### 🧠 Submitting Changes
+
+🧠 Contributions are welcome! If you have ideas for improvements or want to add more exercises, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push to your fork and submit a pull request.
+
+### 👋 Contributors
+### Special thanks to all my groupmates: 
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) 
+ * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
+ * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)  
+ * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
+ * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4) 
+
+
+### 🛸 Reporting Issues
+
+###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
+
+# 🔑 License  
+
+# 📫 Changelogs 
+
+#### [Back to Table of Content](#introduction)
