@@ -118,6 +118,10 @@ Features and Tree Structure down below  
 ```
 
 #### Features 
+- User Registration: Allows users to create an account and securely register their personal information.
+- Account Management: Enables users to manage their bank accounts, including creating new accounts, viewing balances, and making transactions.
+- Transaction History: Provides a detailed transaction history for each user, allowing them to track their financial activities.
+- Security Measures: Implements robust security measures, such as encryption and authentication, to ensure the safety of user data.
 - Create new bank accounts with unique account numbers and account holder names.
 - Deposit money into existing accounts.  
 - Withdraw money from existing accounts, with checks for sufficient balance.
@@ -126,6 +130,7 @@ Features and Tree Structure down below  
 - Registration Form Fantastic Background ( Video or Animated similar style when developing in NextJS)
 - GUI for Login Form, Registration Form, Bank Account, etc 
 - Sound Effect ( Japanese voice prompt)
+
 
 #### Code Structure
 
@@ -192,7 +197,7 @@ If you would like to contribute to the Banking System, please follow these steps
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
- * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) 
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)  
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)  
  * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
