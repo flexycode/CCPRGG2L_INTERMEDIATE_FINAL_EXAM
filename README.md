@@ -8,7 +8,7 @@
 
 # 📊 Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#introduction) 
 - [Lesson](#lesson)           
 - [Final Project](#final-project) 
 - [Contributing](#contributing)           
@@ -44,7 +44,7 @@ At the end of the course, the studend must be able to:
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |  
 |          |               | - Ø Course Syllabi                                  |                                                                                                     | 
 |          |               | - Ø Lab Guidelines and Safety Review                |                                                                                                     |
-| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |  
+| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |   
 | 3        | April 13      | File and String manipulation                         | Chapter 7&13 Java Programming Eight Edition, Farrell, Joyce                                       |
 | 4        | April 20      | Recursion                                            | Chapter 2 Introduction to Programming in Java: An Interdisciplinary Approach, 2nd Edition, Robert Sedgewick |
 |          | April 27      |                                                      | Chapter 13 Java Programming: From Problem Analysis to Program Design, Fifth Edition, Malik, DS     |
@@ -199,14 +199,19 @@ If you would like to contribute to the Banking System, please follow these steps
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
  * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)  
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
- * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)  
+ * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)   
  * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
- * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4) 
+ * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4)  
 
 
 ### 🛸 Reporting Issues
 
 ###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
+
+# 🔭Acknowledgements     
+
+### ✨ Professor Jay A. Abaleta  
+Professor Jay Abaleta is a Senior Software Engineer and esteemed faculty member at National University. With a strong background in teaching the core principles and advanced concepts of Java, he is highly regarded in the field. In addition to his role at National University, Prof. Abaleta also serves as a Professor at Adamson University and as a lecturer of IT/CS at Arba Minch University, sharing his expertise with students worldwide. Having studied at St. Paul University Philippines, Prof. Abaleta brings a wealth of knowledge and experience to his teaching. Known for his friendly and approachable nature, Prof. Abaleta fosters a positive learning environment where students thrive. His dedication and passion for teaching have made him a beloved professor among his students.
 
 # 🔑 License   
 
