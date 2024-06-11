@@ -181,10 +181,10 @@ SUBJECT FOR CHANGES....  
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
 
-<img src="images/images-1.jpg">  
-<img src="images/images-2.jpg">
-<img src="images/images-3.jpg">
-<img src="images/images-4.jpg">
+<img src="images/image-1.png">  
+<img src="images/image-2.jpg">
+<img src="images/image-3.jpg">
+<img src="images/image-4.jpg">
 
 # 🏆 Contributing    
 
