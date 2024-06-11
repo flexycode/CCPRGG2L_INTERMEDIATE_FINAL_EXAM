@@ -143,16 +143,19 @@ ArtificialLedger.java 
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger)
 │       │       ├── components    
-│       │              ├── RegistrationForm.java      
-│       │                ├── 
-│       │ 
-│       │         ├── components    
-│       │       ├── Login.java 
-│       │       └── ...          
-│       │       ├──     
+│       │       │      ├── EventHomeOverlay                         
+│       │       │      ├── HeaderButton
+│       │       │ 
+│       │       ├── forms
+│       │              ├── RegistrationForm         
+│       │              ├── Login.java  
 │       │
-│       │ 
-│       │
+│       │  
+│       │       └── main                  
+│       │              ├── Main ( The Tribal Chief of ArtificialLedger.java,        
+│       │        
+│       │       
+│       │       ├── utils
 │       │
 │       │
 │       │
