@@ -140,23 +140,44 @@ ArtificialLedger.java 
 │
 ├── src
 │   └── main
-│       ├── java 
-│       │   └── your.package.structure
-│       │       ├── RegistrationForm.java
-│       │       ├── Login.java
-│       │       └── ...
+│       ├── java  
+│       │   └── your.package.structure (ArtificialLedger)
+│       │       ├── components    
+│       │              ├── RegistrationForm.java      
+│       │                ├── 
+│       │ 
+│       │         ├── components    
+│       │       ├── Login.java 
+│       │       └── ...          
+│       │       ├──     
+│       │
+│       │ 
+│       │
+│       │
+│       │
+│       │
+│       │   
+│       │
+│       │ 
+│       │
 │       └── resources
 │           └── images
-│               └── your-image-file.png
-├── pom.xml (or build.gradle, etc.)
-└── ... 
+│              └── your-image-file.png
+│
+│                 
+├── pom.xml (or build.gradle, etc.)     
+│
+│
+└── video 
+
+... 
 ```
 MAY BABAGUHIN PA AKO DITO.... 
 
 
-# 🏆 Contributing   
+# 🏆 Contributing    
 
-### Contributing  
+### Contributing   
 If you would like to contribute to the Banking System, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -189,7 +210,7 @@ If you would like to contribute to the Banking System, please follow these steps
 
 # 🔭Acknowledgements     
 
-### ✨ Professor Jay A. Abaleta  
+### ✨ Professor Jay A. Abaleta   
 Professor Jay Abaleta is a Senior Software Engineer and esteemed faculty member at National University. With a strong background in teaching the core principles and advanced concepts of Java, he is highly regarded in the field. In addition to his role at National University, Prof. Abaleta also serves as a Professor at Adamson University and as a lecturer of IT/CS at Arba Minch University, sharing his expertise with students worldwide. Having studied at St. Paul University Philippines, Prof. Abaleta brings a wealth of knowledge and experience to his teaching. Known for his friendly and approachable nature, Prof. Abaleta fosters a positive learning environment where students thrive. His dedication and passion for teaching have made him a beloved professor among his students.
 
 # 🔑 License     
