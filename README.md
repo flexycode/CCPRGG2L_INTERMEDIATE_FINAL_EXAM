@@ -1,7 +1,9 @@
-# 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P        
+# 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P 
+
+<img src="images/image-2.png">  
 ### Group Name: [Artificial Ledger Technology](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCPRGG2L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
-### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                 
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                   
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
 ### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)       
 ### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)             
@@ -61,7 +63,7 @@ At the end of the course, the studend must be able to:
 
 #### SUGGESTED READINGS AND REFERENCES 
 
-* Java Programming Eight Edition, Farrell, Joyce, 2016
+* Java Programming Eight Edition, Farrell, Joyce, 2016 
 * Object-Oriented Data Structures Using Java Fourth Edition, Dale, Nell,2018
 * Java : The Complete Reference Tenth Edition, Schildt, Herbert, 2018
 * Introduction To Programming in Java: An Interdisciplinary Approach Second Edition, Sedgewick, Robert, 2017
@@ -180,11 +182,10 @@ SUBJECT FOR CHANGES....  
 
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
-
+ 
 <img src="images/image-1.png">  
-<img src="images/image-2.jpg">
-<img src="images/image-3.jpg">
-<img src="images/image-4.jpg">
+<img src="images/image-3.png">
+<img src="images/image-4.png">
 
 # 🏆 Contributing    
 
@@ -209,7 +210,7 @@ If you would like to contribute to the Banking System, please follow these steps
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
  * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)    
- * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
+ * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani)  
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)   
  * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
  * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4)  
