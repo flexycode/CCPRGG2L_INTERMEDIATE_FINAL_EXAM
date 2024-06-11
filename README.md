@@ -72,7 +72,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM             
+#### 💻 GRADING SYSTEM                   
 
 Other Learning Activities (20%)
 
@@ -143,25 +143,26 @@ ArtificialLedger.java 
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger)
 │       │       ├── components    
-│       │       │      ├── EventHomeOverlay                         
-│       │       │      ├── HeaderButton
+│       │       │      ├── EventHomeOverlay                            
+│       │       │      ├── HeaderButton 
 │       │       │ 
 │       │       ├── forms
-│       │              ├── RegistrationForm         
-│       │              ├── Login.java  
-│       │
-│       │  
-│       │       └── main                  
-│       │              ├── Main ( The Tribal Chief of ArtificialLedger.java,        
-│       │        
-│       │       
-│       │       ├── utils
-│       │
-│       │
-│       │
-│       │   
-│       │
-│       │ 
+│       │       │      ├── Account (Required: )
+│       │       │      ├── Home (Extra: Walang Lamat)                    
+│       │       │      ├── HomeOverlay   
+│       │       │      ├──   
+│       │       │      ├── Login (Required: ) 
+│       │       │      ├── ModelLocation ( Extra:This is for Background Video)
+│       │       │      ├── RegistrationForm (Required: )        
+│       │       │
+│       │       └── main                   
+│       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all OOP's)        
+│       │       │  
+│       │       │
+│       │       ├── utils 
+│       │              ├── RippleEffect (Extra  
+│       │ 
+│       │
 │       │
 │       └── resources
 │           └── images
@@ -200,7 +201,7 @@ If you would like to contribute to the Banking System, please follow these steps
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
- * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)   
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)    
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)   
  * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
