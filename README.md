@@ -6,7 +6,7 @@
 ### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                   
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
 ### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)       
-### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)             
+### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)              
 
 # 📊 Table of Contents
 
@@ -145,16 +145,16 @@ ArtificialLedger.java 
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger)
 │       │       ├── components    
-│       │       │      ├── EventHomeOverlay                            
-│       │       │      ├── HeaderButton 
+│       │       │      ├── EventHomeOverlay (Wag Pansinin)                                 
+│       │       │      ├── HeaderButton (Wag Pansinin)
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
-│       │       │      ├── Home (Extra: Walang Lamat)                    
-│       │       │      ├── HomeOverlay   
+│       │       │      ├── Home (Extra: Walang Lamat)                     
+│       │       │      ├── HomeOverlay (Wag Pansinin)     
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
-│       │       │      ├── ModelLocation ( Extra:This is for Background Video)
+│       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
 │       │       │      ├── RegistrationForm (Required: )        
 │       │       │
 │       │       └── main                   
@@ -162,7 +162,7 @@ ArtificialLedger.java 
 │       │       │  
 │       │       │
 │       │       ├── utils 
-│       │              ├── RippleEffect (Extra  
+│       │              ├── RippleEffect (Extra: Wag Pansinin)  
 │       │ 
 │       │
 │       │
