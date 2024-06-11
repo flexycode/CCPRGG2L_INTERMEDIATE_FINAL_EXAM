@@ -1,5 +1,7 @@
 package ArtificialLedger.forms;
 
+import ArtificialLedger.forms.RegistrationForm;
+
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.util.UIScale;
 import net.miginfocom.swing.MigLayout;
@@ -25,6 +27,9 @@ public class Login extends JPanel {
         JPasswordField txtPassword = new JPasswordField();
         JCheckBox chRememberMe = new JCheckBox("Remember me");
         JButton cmdLogin = new JButton("Login");
+        JButton cmdForgotPassword = new JButton("Forgot Password");
+        JButton cmdRegister = new JButton("Register");
+
         title.putClientProperty(FlatClientProperties.STYLE, "" +
                 "font:bold +10");
         txtUsername.putClientProperty(FlatClientProperties.STYLE, "" +
@@ -41,6 +46,16 @@ public class Login extends JPanel {
                 "borderWidth:0;" +
                 "focusWidth:0;" +
                 "innerFocusWidth:0");
+        cmdForgotPassword.putClientProperty(FlatClientProperties.STYLE, "" +
+                "background:$Component.accentColor;" +
+                "borderWidth:0;" +
+                "focusWidth:0;" +
+                "innerFocusWidth:0");
+        cmdRegister.putClientProperty(FlatClientProperties.STYLE, "" +
+                "background:$Component.accentColor;" +
+                "borderWidth:0;" +
+                "focusWidth:0;" +
+                "innerFocusWidth:0");
         txtUsername.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Enter your username");
         txtPassword.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Enter your password");
 
@@ -51,6 +66,13 @@ public class Login extends JPanel {
         add(txtPassword);
         add(chRememberMe);
         add(cmdLogin, "gapy 30");
+        add(cmdForgotPassword, "gapy 10");
+        add(cmdRegister, "gapy 10");
+
+        cmdRegister.addActionListener(e -> {
+            RegistrationForm registrationForm = new RegistrationForm();
+            registrationForm.setVisible(true);
+        });
     }
 
     @Override
