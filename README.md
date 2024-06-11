@@ -136,44 +136,23 @@ Features and Tree Structure down below  
 
 Artificial Ledger Bank diagram tree     
 ```bash
-ArtificialLedger.java
+ArtificialLedger.java 
 │
-├── ArtificialLedgerApp.java    
-│   ├── TBD
-│   └── TBD
-│
-├── BalancePanel.java  
-│   ├── TBD
-│   └── TBD
-│
-├── DataStorage.java    
-│   ├── TBD
-│   └── TBD 
-│
-├── MainFrame.java  
-│   ├── TBD
-│   └── TBD
-│   
-└── PlaceHolderTextfield.java        
-│   ├── TBD
-│   ├── TBD
-│   ├── TBD  
-│   ├── TBD
-│   └── TBD
-│ 
-├── MainFrame.java  
-│   ├── TBD
-│   └── TBD
-│
-├── SignUpFrame.java       
-│   ├── TBD 
-│   └── TBD
-│
-├── WithdrawPanel.java        
-│   ├── TBD 
-│   └── TBD
-│
+├── src
+│   └── main
+│       ├── java 
+│       │   └── your.package.structure
+│       │       ├── RegistrationForm.java
+│       │       ├── Login.java
+│       │       └── ...
+│       └── resources
+│           └── images
+│               └── your-image-file.png
+├── pom.xml (or build.gradle, etc.)
+└── ... 
 ```
+MAY BABAGUHIN PA AKO DITO.... 
+
 
 # 🏆 Contributing   
 
@@ -197,7 +176,7 @@ If you would like to contribute to the Banking System, please follow these steps
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
- * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)  
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)   
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)   
  * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
@@ -213,7 +192,7 @@ If you would like to contribute to the Banking System, please follow these steps
 ### ✨ Professor Jay A. Abaleta  
 Professor Jay Abaleta is a Senior Software Engineer and esteemed faculty member at National University. With a strong background in teaching the core principles and advanced concepts of Java, he is highly regarded in the field. In addition to his role at National University, Prof. Abaleta also serves as a Professor at Adamson University and as a lecturer of IT/CS at Arba Minch University, sharing his expertise with students worldwide. Having studied at St. Paul University Philippines, Prof. Abaleta brings a wealth of knowledge and experience to his teaching. Known for his friendly and approachable nature, Prof. Abaleta fosters a positive learning environment where students thrive. His dedication and passion for teaching have made him a beloved professor among his students.
 
-# 🔑 License   
+# 🔑 License     
 
 # 📫 Changelogs 
 
