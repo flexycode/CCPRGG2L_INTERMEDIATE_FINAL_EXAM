@@ -179,9 +179,9 @@ ArtificialLedger.java 
 
 ... 
 ```
-💻 SUBJECT FOR CHANGES....  Missing class for now is -- BankAccount (Required: Priority! ) and AccountManager (Required: Priority! )
-I think this two is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
+💻 SUBJECT FOR CHANGES....  Missing class for now is -- `BankAccount` (Required: Priority! ) and `AccountManager` (Required: Priority! )
 
+I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
 
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
