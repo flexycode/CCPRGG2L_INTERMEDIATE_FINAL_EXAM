@@ -140,12 +140,12 @@ Artificial Ledger Bank diagram tree     
 ```bash
 ArtificialLedger.java 
 │
-├── src
+├── src 
 │   └── main
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger) 
 │       │       ├── components    
-│       │       │      ├── EventHomeOverlay (Interface) (Wag Pansinin)                                      
+│       │       │      ├── EventHomeOverlay (Interfaces and event-driven programming) (Wag Pansinin)                                          
 │       │       │      ├── HeaderButton (Wag Pansinin) 
 │       │       │ 
 │       │       ├── forms
@@ -156,7 +156,7 @@ ArtificialLedger.java 
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
 │       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
-│       │       │      ├── RegistrationForm (Required: )           
+│       │       │      ├── RegistrationForm (Required: )            
 │       │       │
 │       │       └── main                   
 │       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all Class OOP's)        
@@ -180,6 +180,8 @@ ArtificialLedger.java 
 ... 
 ```
 💻 SUBJECT FOR CHANGES....  Missing class for now is -- BankAccount (Required: Priority! ) and AccountManager (Required: Priority! )
+I think this two is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
+
 
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
