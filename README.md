@@ -74,7 +74,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM                     
+#### 💻 GRADING SYSTEM                      
 
 Other Learning Activities (20%)
 
@@ -162,7 +162,7 @@ ArtificialLedger.java 
 │       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all Class OOP's)        
 │       │       │  
 │       │       │
-│       │       ├── utils 
+│       │       ├── utils  
 │       │              ├── RippleEffect (Extra: Wag Pansinin)   
 │       │ 
 │       │
@@ -211,12 +211,12 @@ If you would like to contribute to the Banking System, please follow these steps
 
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
- * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) 
- * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata)    
- * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani)  
- * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811)   
- * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  
- * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4)  
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist  
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) - Tech Lead | Software Engineer III | Machine Learning Engineer  
+ * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) - Tech Lead | Software Quality Assurance SQA | Digital forensics analyst                    
+ * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) - Software Developer | Full Stack Engineer              
+ * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  - Quality Assurance Tester QAT | Information security specialist
+ * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4) - Software Engineer | FullStack Developer    
 
 
 ### 🛸 Reporting Issues
