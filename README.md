@@ -74,7 +74,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM                   
+#### 💻 GRADING SYSTEM                     
 
 Other Learning Activities (20%)
 
@@ -150,19 +150,20 @@ ArtificialLedger.java 
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
-│       │       │      ├── Home (Extra: Walang Lamat)                     
-│       │       │      ├── HomeOverlay (Wag Pansinin)     
+│       │       │      ├──      
+│       │       │      ├── Home (Extra: Walang Laman)                       
+│       │       │      ├── HomeOverlay (Wag Pansinin)      
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
 │       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
-│       │       │      ├── RegistrationForm (Required: )        
+│       │       │      ├── RegistrationForm (Required: )           
 │       │       │
 │       │       └── main                   
-│       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all OOP's)        
+│       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all Class OOP's)        
 │       │       │  
 │       │       │
 │       │       ├── utils 
-│       │              ├── RippleEffect (Extra: Wag Pansinin)  
+│       │              ├── RippleEffect (Extra: Wag Pansinin)   
 │       │ 
 │       │
 │       │
@@ -178,7 +179,7 @@ ArtificialLedger.java 
 
 ... 
 ```
-SUBJECT FOR CHANGES....  
+💻 SUBJECT FOR CHANGES....  Missing class for now is -- BankAccount (Required: ) and AccountManager (Required: )
 
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
@@ -227,6 +228,10 @@ Professor Jay Abaleta is a Senior Software Engineer and esteemed faculty member 
 
 # 🔑 License     
 
+The Artificial Ledger Technology Bank App is licensed under the [MIT License](https://opensource.org/licenses/MIT) and [ALT Licence](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM/blob/master/LICENSE).
+This project is licensed under the MIT License and Artificial Ledger Technology.
+    
 # 📫 Changelogs 
+
 
 #### [Back to Table of Content](#introduction)
