@@ -147,16 +147,17 @@ ArtificialLedger.java 
 │       │       ├── components    
 │       │       │      ├── EventHomeOverlay (Interfaces and event-driven programming) (Wag Pansinin)                                          
 │       │       │      ├── HeaderButton (Wag Pansinin) 
+│       │       │      ├── BankAccount (Required: ) - Waiting sa input ni Gab 
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
 │       │       │      ├──      
-│       │       │      ├── Home (Extra: Walang Laman)                       
-│       │       │      ├── HomeOverlay (Wag Pansinin)      
+│       │       │      ├── Home (Extra: Walang Laman)                        
+│       │       │      ├── HomeOverlay (Wag Pansinin)       
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
 │       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
-│       │       │      ├── RegistrationForm (Required: )            
+│       │       │      ├── RegistrationForm (Required: )             
 │       │       │
 │       │       └── main                   
 │       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all Class OOP's)        
@@ -164,7 +165,7 @@ ArtificialLedger.java 
 │       │       │
 │       │       ├── utils  
 │       │              ├── RippleEffect (Extra: Wag Pansinin)   
-│       │ 
+│       │              ├── AccountManager (Required: ) Waiting sa input ni Gab
 │       │
 │       │
 │       └── resources
@@ -179,6 +180,8 @@ ArtificialLedger.java 
 
 ... 
 ```
+💻 The code tree structure that I provided follows the principles of a software architectural pattern known as the "Package by Feature" or "Package by Component" pattern. This pattern is commonly used in Object-Oriented Programming (OOP) and is particularly prevalent in frameworks and libraries that promote a modular and component-based approach to application development.
+
 💻 SUBJECT FOR CHANGES....  Missing class for now is -- `BankAccount` (Required: Priority! ) and `AccountManager` (Required: Priority! )
 
 I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
