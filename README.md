@@ -143,10 +143,10 @@ ArtificialLedger.java 
 ├── src
 │   └── main
 │       ├── java  
-│       │   └── your.package.structure (ArtificialLedger)
+│       │   └── your.package.structure (ArtificialLedger) 
 │       │       ├── components    
-│       │       │      ├── EventHomeOverlay (Wag Pansinin)                                 
-│       │       │      ├── HeaderButton (Wag Pansinin)
+│       │       │      ├── EventHomeOverlay (Interface) (Wag Pansinin)                                      
+│       │       │      ├── HeaderButton (Wag Pansinin) 
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
