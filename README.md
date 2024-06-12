@@ -41,7 +41,7 @@ At the end of the course, the studend must be able to:
 
 | Week No. | Date Coverage | Topic                                                | Reference                                                                                           |
 |----------|---------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     |
+| 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     | 
 |          |               | - Ø University Mission & Vision                     |                                                                                                     |
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |  
 |          |               | - Ø Course Syllabi                                  |                                                                                                     | 
@@ -164,18 +164,19 @@ ArtificialLedger.java 
 │       │       │  
 │       │       │
 │       │       ├── utils  
-│       │              ├── RippleEffect (Extra: Wag Pansinin)   
+│       │              ├── RippleEffect (Extra: Wag Pansinin)    
 │       │              ├── AccountManager (Required: ) Waiting sa input ni Gab
 │       │
 │       │
 │       └── resources
 │           └── images
-│              └── your-image-file.png
-│
-│                 
-├── pom.xml (or build.gradle, etc.)     
-│
-│
+│           │    └── your-image-file.png
+│           │
+│           └── voice-effect   
+│                └── voice-effect-file.wav
+│                   
+├── pom.xml (or build.gradle, etc.)       
+│ 
 └── video 
 
 ... 
