@@ -181,13 +181,31 @@ ArtificialLedger.java 
 
 ... 
 ```
+#### Code Structure Explanation:
+
 💻 The code tree structure that I provided follows the principles of a software architectural pattern known as the "Package by Feature" or "Package by Component" pattern. This pattern is commonly used in Object-Oriented Programming (OOP) and is particularly prevalent in frameworks and libraries that promote a modular and component-based approach to application development.
 
 💻 SUBJECT FOR CHANGES....  Missing class for now is -- `BankAccount` (Required: Priority! ) and `AccountManager` (Required: Priority! )
 
 I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
 
-# 💫 Artificial Ledger Bank - Output  
+#### Code Requirements:
+
+##### The best IDE to run this Application is to use IntelliJ IDEA Community Edition
+
+* 💻 IntelliJ IDEA Community Edition - Good for personal project, Git Integration features and tons of useful features, easy to use and eye freshing UI theme. The only downside of this is that you need to enable your Microsoft security anti-malware to be able to install this IDE. You cannot store multiple java project unlike Eclipse.
+   
+* 💻 Eclipse - Good only for storing multiple java project because of the workspace features on this IDE. But if you're trying to run this project, you need to downgrade your JDK version into 8 and figure-out how to crack those installation lols.   
+
+* 💻 Visual Studio Code - I've never try to run this project in this IDE during the development period. The only main issue on this IDE is that you need to figure-out what extention to be install before you can run your Java file.          
+
+* 💻 XCode - I dont know, I don't have Macbook and not a fan of that $hit lols.
+
+* 💻 Apache Netbeans - I just saw this on Youtube tutorial, good for designing GUI and UI of Java. Best IDE to use and to know if you want to become a Java Developer lols. 
+
+* 💻 Vim - Do you want your life to become miserable? Use this instead
+
+# 💫 Artificial Ledger Bank - Output   
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
  
 <img src="images/image-1.png">  
