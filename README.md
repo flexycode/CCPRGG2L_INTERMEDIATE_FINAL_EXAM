@@ -179,7 +179,7 @@ ArtificialLedger.java 
 
 ... 
 ```
-💻 SUBJECT FOR CHANGES....  Missing class for now is -- BankAccount (Required: ) and AccountManager (Required: )
+💻 SUBJECT FOR CHANGES....  Missing class for now is -- BankAccount (Required: Priority! ) and AccountManager (Required: Priority! )
 
 # 💫 Artificial Ledger Bank - Output  
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
