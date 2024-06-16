@@ -144,36 +144,39 @@ ArtificialLedger.java 
 │   └── main
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger) 
-│       │       ├── components    
+│       │       ├── components     
 │       │       │      ├── EventHomeOverlay (Interfaces and event-driven programming) (Wag Pansinin)                                          
 │       │       │      ├── HeaderButton (Wag Pansinin) 
-│       │       │      ├── BankAccount (Required: ) - Waiting sa input ni Gab 
+│       │       │      ├── BankAccount (Required: ) 
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
 │       │       │      ├──      
 │       │       │      ├── Home (Extra: Walang Laman)                        
-│       │       │      ├── HomeOverlay (Wag Pansinin)       
+│       │       │      ├── HomeOverlay (Wag Pansinin)        
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
 │       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
 │       │       │      ├── RegistrationForm (Required: )             
 │       │       │
 │       │       └── main                   
-│       │       │      ├── Main ( The Tribal Chief of ArtificialLedger.java, Main run powerline of all Class OOP's)        
+│       │       │      ├── Main ( Main run powerline of all Class OOP's)         
 │       │       │  
 │       │       │
 │       │       ├── utils  
-│       │              ├── RippleEffect (Extra: Wag Pansinin)    
-│       │              ├── AccountManager (Required: ) Waiting sa input ni Gab
+│       │              ├── RippleEffect (Extra:)       
+│       │              ├── AccountManager (Required: )    
 │       │
 │       │
 │       └── resources
 │           └── images
 │           │    └── your-image-file.png
-│           │
-│           └── voice-effect   
-│                └── voice-effect-file.wav
+│           │        
+│           └── voice-effect        
+│           │     └── voice-effect-file.wav         
+│           │
+│           └── bank-account-details  
+│                 └── username-details.txt     
 │                   
 ├── pom.xml (or build.gradle, etc.)       
 │ 
