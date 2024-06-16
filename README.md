@@ -131,7 +131,7 @@ Features and Tree Structure down below  
 - Display detailed information about an account
 - Registration Form Fantastic Background ( Video or Animated similar style when developing in NextJS)
 - GUI for Login Form, Registration Form, Bank Account, etc 
-- Sound Effect ( Japanese voice prompt)
+- Sound Effect ( Twitch - Alert, Japanese, Optimus Prime Robot voice prompt) 
 
 
 #### Code Structure
@@ -147,25 +147,25 @@ ArtificialLedger.java 
 │       │       ├── components     
 │       │       │      ├── EventHomeOverlay (Interfaces)                                           
 │       │       │      ├── HeaderButton (Wag Pansinin) 
-│       │       │      ├── BankAccount (Required: ) 
+│       │       │      ├── BankAccount ( No Code ) 
 │       │       │ 
 │       │       ├── forms
 │       │       │      ├── Account (Required: )
 │       │       │      ├──      
-│       │       │      ├── Home (Extra: Walang Laman)                        
+│       │       │      ├── Home (Extra: No Code)                        
 │       │       │      ├── HomeOverlay (Wag Pansinin)        
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
-│       │       │      ├── ModelLocation ( Extra: Background Video) (Wag Pansinin) 
+│       │       │      ├── ModelLocation ( Extra: Background Video)
 │       │       │      ├── RegistrationForm (Required: )               
 │       │       │
 │       │       └── main                   
-│       │       │      ├── Main ( Main run powerline of all Class OOP's)         
+│       │       │      ├── Main ( Application )         
 │       │       │  
 │       │       │
 │       │       ├── utils  
 │       │              ├── RippleEffect (Extra:)       
-│       │              ├── AccountManager (Required: )    
+│       │              ├── AccountManager (No Code )    
 │       │
 │       │
 │       └── resources
