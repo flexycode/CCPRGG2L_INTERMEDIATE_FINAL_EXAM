@@ -136,7 +136,7 @@ Features and Tree Structure down below  
 
 #### Code Structure
 
-Artificial Ledger Bank diagram tree     
+Artificial Ledger Bank diagram tree using "package-by-features" or "package-by-components"     
 ```bash
 ArtificialLedger.java 
 │
@@ -145,7 +145,7 @@ ArtificialLedger.java 
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger) 
 │       │       ├── components     
-│       │       │      ├── EventHomeOverlay (Interfaces and event-driven programming) (Wag Pansinin)                                          
+│       │       │      ├── EventHomeOverlay (Interfaces)                                           
 │       │       │      ├── HeaderButton (Wag Pansinin) 
 │       │       │      ├── BankAccount (Required: ) 
 │       │       │ 
@@ -156,8 +156,8 @@ ArtificialLedger.java 
 │       │       │      ├── HomeOverlay (Wag Pansinin)        
 │       │       │      ├──   
 │       │       │      ├── Login (Required: ) 
-│       │       │      ├── ModelLocation ( Extra:This is for Background Video) (Wag Pansinin)
-│       │       │      ├── RegistrationForm (Required: )             
+│       │       │      ├── ModelLocation ( Extra: Background Video) (Wag Pansinin) 
+│       │       │      ├── RegistrationForm (Required: )               
 │       │       │
 │       │       └── main                   
 │       │       │      ├── Main ( Main run powerline of all Class OOP's)         
