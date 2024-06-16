@@ -198,15 +198,15 @@ I think those two Class is part of Runnable interface Synchronization and Thread
 
 * 💻 IntelliJ IDEA Community Edition - Good for personal project, Git Integration features and tons of useful features, easy to use and eye freshing UI theme. The only downside of this is that you need to enable your Microsoft security anti-malware to be able to install this IDE. You cannot store multiple java project unlike Eclipse.
    
-* 💻 Eclipse - Good only for storing multiple java project because of the workspace features on this IDE. But if you're trying to run this project, you need to downgrade your JDK version into 8 and figure-out how to crack those installation lols.   
+* 💻 Eclipse - Best choice for every Java Developer out there, best for storing multiple java project because of the workspace features on this IDE. But if you're trying to run this project, you need to downgrade your JDK version into 8 and figure-out how to crack those installation lols.   
 
 * 💻 Visual Studio Code - I've never try to run this project in this IDE during the development period. The only main issue on this IDE is that you need to figure-out what extention to be install before you can run your Java file.          
 
 * 💻 XCode - I dont know, I don't have Macbook and not a fan of that $hit lols.
 
-* 💻 Apache Netbeans - I just saw this on Youtube tutorial, good for designing GUI and UI of Java. Best IDE to use and to know if you want to become a Java Developer lols. 
+* 💻 Apache Netbeans - I just saw this IDE on Youtube tutorial, good for designing GUI and UI for java project. Best IDE for Java development to use and to know if you want to become a Java Developer lols. 
 
-* 💻 Vim - Do you want your life to become miserable? Use this instead
+* 💻 Vim - Do you want your life to become miserable? Use this instead :D
 
 # 💫 Artificial Ledger Bank - Output   
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
