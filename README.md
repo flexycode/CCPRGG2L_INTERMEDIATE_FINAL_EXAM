@@ -41,7 +41,7 @@ At the end of the course, the studend must be able to:
 
 | Week No. | Date Coverage | Topic                                                | Reference                                                                                           |
 |----------|---------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     | 
+| 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     |  
 |          |               | - Ø University Mission & Vision                     |                                                                                                     |
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |  
 |          |               | - Ø Course Syllabi                                  |                                                                                                     | 
@@ -134,7 +134,7 @@ Features and Tree Structure down below  
 - Sound Effect ( Twitch - Alert, Japanese, Optimus Prime Robot voice prompt) 
 
 
-#### Code Structure
+#### Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
 
 Artificial Ledger Bank diagram tree using "package-by-features" or "package-by-components"     
 ```bash
