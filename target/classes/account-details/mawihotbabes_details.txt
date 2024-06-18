@@ -1,0 +1,13 @@
+First Name: Maui
+Last Name: Taylor
+Middle Name: Peralejo
+Birthday: 6-28-1983
+Gender: Female
+Father's Name: Chuck Taylor
+Mother's Name: Rica Peralejo
+Contact Number: 09154166807
+Address: 15 Bell Air Laguna
+Pin Code: 062883
+Username: mawihotbabes
+Password: hibla
+Initial Deposit (PHP): 5000

@@ -1,15 +1,19 @@
 package ArtificialLedger.forms;
 
-import ArtificialLedger.forms.RegistrationForm;
-
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.util.UIScale;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.geom.RoundRectangle2D;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 
 public class Login extends JPanel {
 
@@ -73,7 +77,51 @@ public class Login extends JPanel {
             RegistrationForm registrationForm = new RegistrationForm();
             registrationForm.setVisible(true);
         });
+
+        cmdLogin.addActionListener(e -> {
+            String username = txtUsername.getText();
+            String password = new String(txtPassword.getPassword());
+            if (authenticateUser(username, password)) {
+                // User authentication successful
+                // Add your logic for what happens after successful login
+                HomeOverlay homeOverlay = new HomeOverlay();
+                homeOverlay.setVisible(false);
+
+
+                // Open the Account window
+                Account account = new Account();
+                account.setVisible(true);
+            } else {
+                // User authentication failed
+                // Add your logic for what happens after failed login
+                JOptionPane.showMessageDialog(Login.this, "Invalid username or password");
+            }
+        });
     }
+
+    private boolean authenticateUser(String username, String password) {
+        try {
+            // Set the file path to your desired location within the project codebase
+            String filePath = "src/main/resources/account-details/" + username + "_details.txt";
+
+            BufferedReader reader = new BufferedReader(new FileReader(filePath));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("Password:")) {
+                    String storedPassword = line.substring(line.indexOf(" ") + 1);
+                    if (password.equals(storedPassword)) {
+                        reader.close();
+                        return true;
+                    }
+                }
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
 
     @Override
     protected void paintComponent(Graphics g) {

@@ -15,7 +15,14 @@ import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
 import java.util.List;
 
+import ArtificialLedger.components.BankAccount;
+import ArtificialLedger.utils.AccountManager;
+
 public class HomeOverlay extends JWindow {
+
+    public HomeOverlay() {
+
+    }
 
     public PanelOverlay getOverlay() {
         return overlay;
@@ -277,3 +284,4 @@ public class HomeOverlay extends JWindow {
         CLOSE_VIDEO, SHOW_VIDEO, NONE
     }
 }
+

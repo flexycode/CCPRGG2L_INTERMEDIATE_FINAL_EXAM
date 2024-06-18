@@ -1,0 +1,14 @@
+First Name: Eimi
+Last Name: Fukada
+Middle Name: Amami
+Birthday: 03-18-1998
+Gender: Female
+Father's Name: Luke Skywalker
+Mother's Name: Lea Skywalker
+Contact Number: 09266236721
+Address: 16 Don Mariano, Don Fabian QC
+Pin Code: 031898
+Username: EimiJavascript
+Password: yametekudasai
+Initial Deposit (PHP): 500
+Account No.: 2024100000

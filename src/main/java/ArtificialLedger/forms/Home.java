@@ -10,6 +10,9 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import ArtificialLedger.components.BankAccount;
+import ArtificialLedger.utils.AccountManager;
+
 public class Home extends JPanel {
 
     private List<ModelLocation> locations;

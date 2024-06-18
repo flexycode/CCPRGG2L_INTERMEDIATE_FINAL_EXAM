@@ -1,0 +1,14 @@
+First Name: Maverick
+Last Name: Doncic
+Middle Name: Piano
+Birthday: 12-25-1997
+Gender: Male
+Father's Name: Luka Doncic
+Mother's Name: Anamaria Goltes
+Contact Number: 09266236721
+Address: 16 Don Macario Street
+Pin Code: 122597
+Username: metamask1
+Password: 122597
+Initial Deposit (PHP): 500
+Account No.: 2024100000
