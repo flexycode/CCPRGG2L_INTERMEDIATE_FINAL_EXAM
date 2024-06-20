@@ -213,7 +213,7 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 Vim - Do you want your life to become miserable? Use this IDE instead :D
 
-* 💻 NeoVim - IDE for Alien being, not human being.
+* 💻 NeoVim - IDE for Alien being, not human being.  
 
 # 💫 Artificial Ledger Bank - Output   
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
@@ -221,6 +221,10 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 <img src="images/image-1.png">  
 <img src="images/image-3.png">
 <img src="images/image-4.png">
+<img src="images/image-14.png">
+<img src="images/image-13.png">
+<img src="images/image-11.png">
+<img src="images/image-12.png">
 
 # 🏆 Contributing    
 
