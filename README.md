@@ -74,7 +74,7 @@ At the end of the course, the studend must be able to:
 
 Assignments, Laboratory Exercises, Long Exam, Final Exam
 
-#### 💻 GRADING SYSTEM                       
+#### 💻 GRADING SYSTEM                         
 
 Other Learning Activities (20%)
 
@@ -213,7 +213,7 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 Vim - Do you want your life to become miserable? Use this IDE instead :D
 
-* 💻 NeoVim - IDE for Alien being, not human being.  
+* 💻 NeoVim - IDE for Alien being, not human being.    
 
 # 💫 Artificial Ledger Bank - Output   
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
@@ -249,11 +249,11 @@ If you would like to contribute to the Banking System, please follow these steps
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist    
  * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) - Tech Lead | Software Engineer III | Machine Learning Engineer  
- * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) - Tech Lead | Software Quality Assurance SQA | Digital forensics analyst                    
- * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) - Software Developer | Full Stack Engineer              
- * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  - Quality Assurance Tester QAT | Information security specialist
- * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4) - Software Engineer | FullStack Developer    
-
+ * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) - Project Lead | Software Quality Assurance SQA | Digital Forensics Analyst                    
+ * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) - Team Lead | Software Developer | Full-Stack Engineer               
+ * ####  😌 [Joshua Maquilan](https://github.com/Primorion)  -  Quality Assurance Tester QAT | Information Security Specialist | Software Engineer  
+ * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4) - Software Engineer | Full-Stack Developer | Mobile Developer               
+ 
 
 ### 🛸 Reporting Issues
 
