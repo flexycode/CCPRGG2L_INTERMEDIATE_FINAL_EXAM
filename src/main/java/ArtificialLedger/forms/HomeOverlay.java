@@ -15,8 +15,6 @@ import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
 import java.util.List;
 
-import ArtificialLedger.components.BankAccount;
-import ArtificialLedger.utils.AccountManager;
 
 public class HomeOverlay extends JWindow {
 
@@ -62,8 +60,8 @@ public class HomeOverlay extends JWindow {
         public void setIndex(int index) {
             this.index = index;
             ModelLocation location = locations.get(index);
-            textTitle.setText(location.getTitle());
-            textDescription.setText(location.getDescription());
+            textTitle.setText(location.title());
+            textDescription.setText(location.description());
         }
 
         public PanelOverlay() {
@@ -81,20 +79,17 @@ public class HomeOverlay extends JWindow {
             panel.setOpaque(false);
             textTitle = new JTextPane();
             textDescription = new JTextPane();
-            cmdReadMore = new JButton("Read More");
+            JButton cmdReadMore = new JButton("Read More");
             textTitle.setOpaque(false);
             textTitle.setEditable(false);
-            textTitle.putClientProperty(FlatClientProperties.STYLE, "" +
-                    "font:bold +40;" +
+            textTitle.putClientProperty(FlatClientProperties.STYLE, "font:bold +40;" +
                     "border:0,0,0,0");
 
             textDescription.setOpaque(false);
             textDescription.setEditable(false);
-            textDescription.putClientProperty(FlatClientProperties.STYLE, "" +
-                    "font:bold +2;" +
+            textDescription.putClientProperty(FlatClientProperties.STYLE, "font:bold +2;" +
                     "border:0,0,0,0");
-            cmdReadMore.putClientProperty(FlatClientProperties.STYLE, "" +
-                    "background:$Component.accentColor;" +
+            cmdReadMore.putClientProperty(FlatClientProperties.STYLE, "background:$Component.accentColor;" +
                     "borderWidth:0;" +
                     "margin:5,15,5,15;" +
                     "focusWidth:0;" +
@@ -122,7 +117,7 @@ public class HomeOverlay extends JWindow {
                     if (animationType == AnimationType.CLOSE_VIDEO) {
                         eventHomeOverlay.onChanged(index);
                         SwingUtilities.invokeLater(() -> {
-                            sleep(500);
+                            sleep();
                             runAnimation(index, AnimationType.SHOW_VIDEO);
                         });
                     } else {
@@ -130,41 +125,35 @@ public class HomeOverlay extends JWindow {
                     }
                 }
             });
-            loginAnimator = new Animator(500, new Animator.TimingTarget() {
-                @Override
-                public void timingEvent(float v) {
-                    float f = showLogin ? v : 1f - v;
-                    int x = (int) ((350 + 180) * f);
-                    migLayout.setComponentConstraints(panelLogin, "pos 100%-" + x + " 0.5al, w 350");
-                    revalidate();
-                }
+            loginAnimator = new Animator(500, v -> {
+                float f = showLogin ? v : 1f - v;
+                int x = (int) ((350 + 180) * f);
+                migLayout.setComponentConstraints(panelLogin, "pos 100%-" + x + " 0.5al, w 350");
+                revalidate();
             });
             animator.setInterpolator(CubicBezierEasing.EASE_IN);
             loginAnimator.setInterpolator(CubicBezierEasing.EASE);
         }
 
-        private void sleep(long l) {
+        private void sleep() {
             try {
-                Thread.sleep(l);
+                Thread.sleep(500);
             } catch (Exception e) {
-                System.err.println(e);
+                System.err.println();
             }
         }
 
         private void createHeader() {
-            header = new JPanel(new MigLayout("fill", "[]push[][]"));
+            JPanel header = new JPanel(new MigLayout("fill", "[]push[][]"));
             header.setOpaque(false);
             JLabel title = new JLabel("ALTBank");
-            title.putClientProperty(FlatClientProperties.STYLE, "" +
-                    "font:bold +10");
+            title.putClientProperty(FlatClientProperties.STYLE, "font:bold +10");
             HeaderButton home = new HeaderButton("Wallet");
             HeaderButton about = new HeaderButton("Exchange");
             HeaderButton explore = new HeaderButton("Explore");
             HeaderButton login = new HeaderButton("Login");
 
-            login.addActionListener(e -> {
-                runLoginAnimation(true);
-            });
+            login.addActionListener(e -> runLoginAnimation(true));
 
             header.add(title);
             header.add(home);
@@ -185,8 +174,7 @@ public class HomeOverlay extends JWindow {
             panel.setOpaque(false);
             for (int i = 0; i < locations.size(); i++) {
                 JButton cmd = new JButton("");
-                cmd.putClientProperty(FlatClientProperties.STYLE, "" +
-                        "margin:5,5,5,5;" +
+                cmd.putClientProperty(FlatClientProperties.STYLE, "margin:5,5,5,5;" +
                         "arc:999;" +
                         "borderWidth:0;" +
                         "focusWidth:0;" +
@@ -212,11 +200,7 @@ public class HomeOverlay extends JWindow {
             int count = panel.getComponentCount();
             for (int i = 0; i < count; i++) {
                 JButton cmd = (JButton) panel.getComponent(i);
-                if (i == index) {
-                    cmd.setSelected(true);
-                } else {
-                    cmd.setSelected(false);
-                }
+                cmd.setSelected(i == index);
             }
         }
 
@@ -268,15 +252,12 @@ public class HomeOverlay extends JWindow {
             float size = maxSize * animate;
             float x = (rec.width - size) / 2;
             float y = (rec.height - size) / 2;
-            Ellipse2D ell = new Ellipse2D.Double(x, y, size, size);
-            return ell;
+            return new Ellipse2D.Double(x, y, size, size);
         }
 
 
-        private JPanel header;
         private JTextPane textTitle;
         private JTextPane textDescription;
-        private JButton cmdReadMore;
         private Login panelLogin;
     }
 

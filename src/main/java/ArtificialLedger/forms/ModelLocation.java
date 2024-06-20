@@ -1,38 +1,26 @@
 package ArtificialLedger.forms;
 
-public class ModelLocation {
+/**
+ * This record class represents a model location in the ArtificialLedger application.
+ * It encapsulates information about a specific location or feature within the application,
+ * including its title, description, and associated video path.
 
-    public String getTitle() {
-        return title;
-    }
+ * Key features:
+ * 1. Immutable data structure using Java's record feature.
+ * 2. Stores three pieces of information: title, description, and video path.
+ * 3. Automatically generates constructor, accessor methods, equals(), hashCode(), and toString().
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+ * Usage:
+ * This record is typically used to represent different sections or features of the application,
+ * possibly for navigation purposes or to display information about various functionalities.
+ * The video path could be used to associate instructional or promotional videos with each location.
+ *
+ * @param title The title or name of the location or feature
+ * @param description A brief description of the location or feature
+ * @param videoPath The file path or URL to a video associated with this location
+ */
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getVideoPath() {
-        return videoPath;
-    }
-
-    public void setVideoPath(String videoPath) {
-        this.videoPath = videoPath;
-    }
-
-    public ModelLocation(String title, String description, String videoPath) {
-        this.title = title;
-        this.description = description;
-        this.videoPath = videoPath;
-    }
-
-    private String title;
-    private String description;
-    private String videoPath;
+record ModelLocation(String title, String description, String videoPath) {
+    // No additional methods or fields are needed as the record provides
+    // all necessary functionality for this simple data structure.
 }
