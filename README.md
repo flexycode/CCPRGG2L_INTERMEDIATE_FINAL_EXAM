@@ -141,43 +141,47 @@ ArtificialLedger.java 
 │       ├── java  
 │       │   └── your.package.structure (ArtificialLedger) 
 │       │       ├── components     
-│       │       │      ├── EventHomeOverlay (Interfaces)                                           
-│       │       │      ├── HeaderButton (Wag Pansinin) 
-│       │       │      ├── BankAccount ( No Code ) 
+│       │       │      ├── EventHomeOverlay (💡Interfaces)                                           
+│       │       │      ├── HeaderButton (components for Home)  
+│       │       │      ├── BankAccount ( integration for Account, AccountManager, resources/account-details)   
 │       │       │ 
 │       │       ├── forms
-│       │       │      ├── Account (Required: )
+│       │       │      ├── Account (🛸 GUI )    
 │       │       │      ├──      
-│       │       │      ├── Home (Extra: No Code)                        
-│       │       │      ├── HomeOverlay (Wag Pansinin)        
+│       │       │      ├── Home ( Homepage )                         
+│       │       │      ├── HomeOverlay (Home: )         
 │       │       │      ├──   
-│       │       │      ├── Login (Required: ) 
+│       │       │      ├── Login (📓Side Panel in Home ) 
 │       │       │      ├── ModelLocation ( Extra: Background Video)
-│       │       │      ├── RegistrationForm (Required: )               
+│       │       │      ├── RegistrationForm ( 🛸 GUI )                       
 │       │       │
 │       │       └── main                   
-│       │       │      ├── Main ( Application )         
+│       │       │      ├── Main ( 🚀 Application )              
 │       │       │  
 │       │       │
 │       │       ├── utils  
-│       │              ├── RippleEffect (Extra:)       
-│       │              ├── AccountManager (No Code )    
+│       │              ├── RippleEffect (Extra:)        
+│       │              ├── AccountManager (integration for Account, BankAccount, resources/account-details)    
 │       │
-│       │
+│       │   
 │       └── resources
+│           └── account-details   
+│           │     └── username-details.txt             
+│           │     └── username-details.txt   
+│           │
 │           └── images
-│           │    └── your-image-file.png
-│           │        
+│           │     └── your-image-file.png
+│           │         
 │           └── voice-effect        
-│           │     └── voice-effect-file.wav         
-│           │
-│           └── bank-account-details  
-│                 └── username-details.txt     
+│                 └── voice-effect-file.wav               
+│                        
 │                    
-├── pom.xml (or build.gradle, etc.)       
+├── pom.xml (or build.gradle, etc.)        
 │ 
-└── video 
-
+└── video
+       ├── video 1.mp4
+       ├── video 2.mp4
+       └── video 3.mp4         
 ... 
 ```
 #### Code Structure Explanation:
@@ -189,7 +193,7 @@ ArtificialLedger.java 
 I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
 
 #### Code Requirements:
-* 🚀 Download [VLC Media Player](https://www.videolan.org/vlc)
+* 🚀 Download [VLC Media Player](https://www.videolan.org/vlc) 
 * 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
 * 🚀 Understand the Code Tree Structure of [Articial Ledger Bank](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM/edit/master/README.md#-code-project-structure-using-maven)
 * 🚀 Locate the designated important file such as video, resources file like wav, png, jpg in appropriate directory file in your Idea folder located in your system drive or C:\drive.
