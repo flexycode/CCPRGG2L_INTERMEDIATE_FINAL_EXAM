@@ -90,21 +90,22 @@ Final Exam/Project (40%)
 
 #### Machine Problem:     
 
-🚀 Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information: 
+🚀 Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information:
 
-| Registration Form            |                     | 
-|-----------------------------|---------------------|
+```bash
+| Registration Form           |                     |   
+|-----------------------------|---------------------| 
 | First Name:                 | Middle Name:        |
-| Last Name:                  | Gender:             |
+| Last Name:                  | Gender:             | 
 | Birthdate:                  | Father Name:        |
 | Mother Name:                | Contact No:         |
 | Address:                    | Pin code:           |
-|-----------------------------|---------------------| 
+|-----------------------------|---------------------|  
 | Username:                   | Password:           |
 |                             |                     |
 |                             |                     |
-| Initial Deposit: 500        |                     |
-
+| Initial Deposit: 500        |                     | 
+```
 
 💱 The program will store all the information “NewAccount.txt” for the storage of the bank account, the program has feature of Deposit, Withdraw and Balance Inquiry. The initial deposit is the constant value 500 in the registration. Account No. will start at this default value. 2024100000. – new  
 
@@ -113,10 +114,6 @@ Final Exam/Project (40%)
 * Secure the Username and Password 
 
 * Set an Exception handling to avoid Errors. 
-
-```bash
-Features and Tree Structure down below  
-```
 
 #### ✨ Features 
 - User Registration: Allows users to create an account and securely register their personal information.
@@ -194,7 +191,7 @@ I think those two Class is part of Runnable interface Synchronization and Thread
 #### Code Requirements:
 * 🚀 Download [VLC Media Player](https://www.videolan.org/vlc)
 * 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
-* 🚀 Understand the Code Tree Structure
+* 🚀 Understand the Code Tree Structure of [Articial Ledger Bank](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM/edit/master/README.md#-code-project-structure-using-maven)
 * 🚀 Locate the designated important file such as video, resources file like wav, png, jpg in appropriate directory file in your Idea folder located in your system drive or C:\drive.
 Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
@@ -210,7 +207,9 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 Apache Netbeans - I just saw this IDE on Youtube tutorial, good for designing GUI and UI for java project. Best IDE for Java development to use and to know if you want to become a Java Developer lols. 
 
-* 💻 Vim - Do you want your life to become miserable? Use this instead :D
+* 💻 Vim - Do you want your life to become miserable? Use this IDE instead :D
+
+* 💻 NeoVim - IDE for Alien being, not human being.
 
 # 💫 Artificial Ledger Bank - Output   
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
@@ -240,7 +239,7 @@ If you would like to contribute to the Banking System, please follow these steps
 
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
- * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist   
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist    
  * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) - Tech Lead | Software Engineer III | Machine Learning Engineer  
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) - Tech Lead | Software Quality Assurance SQA | Digital forensics analyst                    
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) - Software Developer | Full Stack Engineer              
