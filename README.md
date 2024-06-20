@@ -90,9 +90,9 @@ Final Exam/Project (40%)
 
 #### Machine Problem:     
 
-Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information: 
+🚀 Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information: 
 
-| Registration Form            |                     |
+| Registration Form            |                     | 
 |-----------------------------|---------------------|
 | First Name:                 | Middle Name:        |
 | Last Name:                  | Gender:             |
@@ -106,10 +106,9 @@ Construct a JAVA OOP program using Java Swing GUI environment for Personal New B
 | Initial Deposit: 500        |                     |
 
 
+💱 The program will store all the information “NewAccount.txt” for the storage of the bank account, the program has feature of Deposit, Withdraw and Balance Inquiry. The initial deposit is the constant value 500 in the registration. Account No. will start at this default value. 2024100000. – new  
 
-The program will store all the information “NewAccount.txt” for the storage of the bank account, the program has feature of Deposit, Withdraw and Balance Inquiry. The initial deposit is the constant value 500 in the registration. Account No. will start at this default value. 2024100000. – new  
-
-#### Program Requirements  
+#### ⛓️ Program Requirements    
 
 * Secure the Username and Password 
 
@@ -119,7 +118,7 @@ The program will store all the information “NewAccount.txt” for the storage 
 Features and Tree Structure down below  
 ```
 
-#### Features 
+#### ✨ Features 
 - User Registration: Allows users to create an account and securely register their personal information.
 - Account Management: Enables users to manage their bank accounts, including creating new accounts, viewing balances, and making transactions.
 - Transaction History: Provides a detailed transaction history for each user, allowing them to track their financial activities.
@@ -134,7 +133,7 @@ Features and Tree Structure down below  
 - Sound Effect ( Twitch - Alert, Japanese, Optimus Prime Robot voice prompt) 
 
 
-#### Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
+#### 💻 Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
 
 Artificial Ledger Bank diagram tree using "package-by-features" or "package-by-components"     
 ```bash
@@ -177,7 +176,7 @@ ArtificialLedger.java 
 │           │
 │           └── bank-account-details  
 │                 └── username-details.txt     
-│                   
+│                    
 ├── pom.xml (or build.gradle, etc.)       
 │ 
 └── video 
@@ -193,6 +192,11 @@ ArtificialLedger.java 
 I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
 
 #### Code Requirements:
+* 🚀 Download [VLC Media Player](https://www.videolan.org/vlc)
+* 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+* 🚀 Understand the Code Tree Structure
+* 🚀 Locate the designated important file such as video, resources file like wav, png, jpg in appropriate directory file in your Idea folder located in your system drive or C:\drive.
+Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 ##### The best IDE to run this Application is to use IntelliJ IDEA Community Edition
 
@@ -236,7 +240,7 @@ If you would like to contribute to the Banking System, please follow these steps
 
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
- * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist  
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist   
  * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) - Tech Lead | Software Engineer III | Machine Learning Engineer  
  * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) - Tech Lead | Software Quality Assurance SQA | Digital forensics analyst                    
  * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) - Software Developer | Full Stack Engineer              
