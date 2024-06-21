@@ -215,20 +215,40 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 NeoVim - IDE for Alien being, not human being.    
 
-# 🏦 Artificial Ledger Bank - Preview     
+# 🏦 Artificial Ledger Bank - Preview        
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
- 
-<img src="images/image-1.png">  
+### Home Page 
+<img src="images/image-1.png">
+
+### Login Panel
+
 <img src="images/image-3.png">
-<img src="images/image-4.png">
+
+### Registration Form        
+
+<img src="images/image-4.png">      
+
 <img src="images/image-14.png">
+
+### Bank Account Transaction GUI      
+    
 <img src="images/image-13.png">
+
+### Deposit          
+    
+<img src="images/image-10.png">
+
+### Withdraw   
+
 <img src="images/image-11.png">
+
+### Balance Inquiry 
+
 <img src="images/image-12.png">
 
 # 🏆 Contributing    
 
-### Contributing   
+### Contributing     
 If you would like to contribute to the Banking System, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
