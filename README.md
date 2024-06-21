@@ -124,9 +124,9 @@ Final Exam/Project (40%)
 - Deposit money into existing accounts.  
 - Withdraw money from existing accounts, with checks for sufficient balance.
 - Check the current balance of an account.
-- Display detailed information about an account
+- Display detailed information about an account.
 - Registration Form Fantastic Background ( Video or Animated similar style when developing in NextJS)
-- GUI for Login Form, Registration Form, Bank Account, etc 
+- GUI for Login Form, Registration Form, Bank Account, etc. 
 - Sound Effect ( Twitch - Alert, Japanese, Optimus Prime Robot voice prompt) 
 
 
