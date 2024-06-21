@@ -193,7 +193,7 @@ ArtificialLedger.java 
 I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
 
 #### Code Requirements:
-* 🚀 Download [VLC Media Player](https://www.videolan.org/vlc) 
+* 🚀 Download [VLC Media Player](https://www.videolan.org/vlc) 64 bit. Depends on your jdk version if lower jdk need 32 bit
 * 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
 * 🚀 Understand the Code Tree Structure of [Articial Ledger Bank](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM?tab=readme-ov-file#-code-project-structure-using-maven)
 * 🚀 Locate the designated important file such as video, resources file like wav, png, jpg in appropriate directory file in your Idea folder located in your system drive or C:\drive.
