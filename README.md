@@ -126,7 +126,7 @@ Final Exam/Project (40%)
 - Check the current balance of an account.
 - Display detailed information about an account.
 - Registration Form Fantastic Background ( Video or Animated similar style when developing in NextJS)
-- GUI for Login Form, Registration Form, Bank Account, etc. 
+- GUI for Login Form, Registration Form, Bank Account, etc.  
 - Sound Effect ( Twitch - Alert, Japanese, Optimus Prime Robot voice prompt) 
 
 
@@ -182,7 +182,7 @@ ArtificialLedger.java 
        ├── video 1.mp4
        ├── video 2.mp4
        └── video 3.mp4         
-... 
+...  
 ```
 #### Code Structure Explanation:
 
@@ -213,7 +213,7 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 Vim - Do you want your life to become miserable? Use this IDE instead :D
 
-* 💻 NeoVim - IDE for Alien being, not human being.    
+* 💻 NeoVim - IDE for Alien being, not human being.     
 
 # 🏦 Artificial Ledger Bank - Preview        
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
