@@ -1,9 +1,9 @@
-# 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P 
+# 💫 CCPRGG2L INTERMEDIATE PROGRAMMING COM23P  
 
 <img src="images/image-2.png">  
 ### Group Name: [Artificial Ledger Technology](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCPRGG2L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️    
-### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                   
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                    
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
 ### Prerequisite: [CCPRGG1L Fundamentals of Programming](https://github.com/flexycode/CCPRGG1L_FUNDAMENTALS_COM23P)       
 ### Course Repo: [CCPRGG2L Intermediate Programming](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_PROGRAMMING)               
@@ -43,10 +43,10 @@ At the end of the course, the studend must be able to:
 |----------|---------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     |  
 |          |               | - Ø University Mission & Vision                     |                                                                                                     |
-|          |               | - Ø College Mission & Vision                        |                                                                                                     |  
-|          |               | - Ø Course Syllabi                                  |                                                                                                     | 
+|          |               | - Ø College Mission & Vision                        |                                                                                                     |   
+|          |               | - Ø Course Syllabi                                  |                                                                                                     |  
 |          |               | - Ø Lab Guidelines and Safety Review                |                                                                                                     |
-| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |   
+| 2        | April 6       | Arrays                                               | Chapter 8&9 Java Programming Eight Edition, Farrell, Joyce                                        |    
 | 3        | April 13      | File and String manipulation                         | Chapter 7&13 Java Programming Eight Edition, Farrell, Joyce                                       |
 | 4        | April 20      | Recursion                                            | Chapter 2 Introduction to Programming in Java: An Interdisciplinary Approach, 2nd Edition, Robert Sedgewick |
 |          | April 27      |                                                      | Chapter 13 Java Programming: From Problem Analysis to Program Design, Fifth Edition, Malik, DS     |
@@ -86,9 +86,9 @@ Final Exam/Project (40%)
 
 ## [Final Project](#final)   
  
-### 🔒 Artificial Ledger Technology Banking System 
+### 🏦 Artificial Ledger Technology Banking System 🔒  
 
-#### Machine Problem:     
+#### Machine Problem:        
 
 🚀 Construct a JAVA OOP program using Java Swing GUI environment for Personal New Bank Account, that the new user will Register the following information:
 
@@ -215,7 +215,7 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 * 💻 NeoVim - IDE for Alien being, not human being.    
 
-# 💫 Artificial Ledger Bank - Output   
+# 🏦 Artificial Ledger Bank - Preview     
 #### Artificial Ledger Technology Bank "The Bank that you can trust” – Powered by Blockchain Technology #Web3 Philippine By ArtificialLedger
  
 <img src="images/image-1.png">  
