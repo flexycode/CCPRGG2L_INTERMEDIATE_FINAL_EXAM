@@ -42,7 +42,7 @@ At the end of the course, the studend must be able to:
 | Week No. | Date Coverage | Topic                                                | Reference                                                                                           |
 |----------|---------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1        | April 6       | Class Orientation                                   | Course Syllabus                                                                                     |  
-|          |               | - Ø University Mission & Vision                     |                                                                                                     |
+|          |               | - Ø University Mission & Vision                     |                                                                                                     | 
 |          |               | - Ø College Mission & Vision                        |                                                                                                     |   
 |          |               | - Ø Course Syllabi                                  |                                                                                                     |  
 |          |               | - Ø Lab Guidelines and Safety Review                |                                                                                                     |
@@ -195,7 +195,7 @@ I think those two Class is part of Runnable interface Synchronization and Thread
 #### Code Requirements:
 * 🚀 Download [VLC Media Player](https://www.videolan.org/vlc) 
 * 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
-* 🚀 Understand the Code Tree Structure of [Articial Ledger Bank](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM/edit/master/README.md#-code-project-structure-using-maven)
+* 🚀 Understand the Code Tree Structure of [Articial Ledger Bank](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM?tab=readme-ov-file#-code-project-structure-using-maven)
 * 🚀 Locate the designated important file such as video, resources file like wav, png, jpg in appropriate directory file in your Idea folder located in your system drive or C:\drive.
 Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
