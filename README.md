@@ -188,10 +188,6 @@ ArtificialLedger.java 
 
 💻 The code tree structure that I provided follows the principles of a software architectural pattern known as the "Package by Feature" or "Package by Component" pattern. This pattern is commonly used in Object-Oriented Programming (OOP) and is particularly prevalent in frameworks and libraries that promote a modular and component-based approach to application development.
 
-💻 SUBJECT FOR CHANGES....  Missing class for now is -- `BankAccount` (Required: Priority! ) and `AccountManager` (Required: Priority! )
-
-I think those two Class is part of Runnable interface Synchronization and Threads topic lesson (not sure on this need to research and dirty hands-on programming)
-
 #### Code Requirements:
 * 🚀 Download [VLC Media Player](https://www.videolan.org/vlc) 64 bit. Depends on your jdk version if lower jdk need 32 bit
 * 🚀 Download and use [Intellij Idea Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
@@ -274,6 +270,14 @@ If you would like to contribute to the Banking System, please follow these steps
  
 
 ### 🛸 Reporting Issues
+
+```bash
+Some changes need to be address
+- Need to limit the Pin Code to 6 character input only just like in the Real Bank, example 123456
+- Fix the GUI for Login and Account Class
+- Fix some method in Account Class, for every transaction such Withdrawal, Deposit and Balance Inquiry. It needs to have Pin Code for every transaction.
+
+```
 
 ###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
 
