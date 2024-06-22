@@ -225,9 +225,7 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 <img src="images/image-3.png">
 
 ### Registration Form        
-
-<img src="images/image-4.png">      
-
+      
 <img src="images/image-14.png">
 
 ### Bank Account Transaction GUI      
