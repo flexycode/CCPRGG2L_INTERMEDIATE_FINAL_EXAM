@@ -293,5 +293,16 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
     
 # 📫 Changelogs 
 
+## [4.1.4] - 2024-06-8      
+### Added  
+- ✨ Coming Soon 💻 🚀
+- ✨ Coming Soon 🧠 🔑
+
+### Changed
+- ✨ Coming Soon
+
+### Fixed 
+- ✨ Coming Soon
+
 
 #### [Back to Table of Content](#introduction)
