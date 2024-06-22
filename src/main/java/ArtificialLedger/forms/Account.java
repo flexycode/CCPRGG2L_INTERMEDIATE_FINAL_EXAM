@@ -1,5 +1,5 @@
 package ArtificialLedger.forms;
-
+import ArtificialLedger.utils.AccountManager;
 import javax.swing.*;
 import java.awt.*;
 import javax.sound.sampled.*;
@@ -19,21 +19,31 @@ import java.io.File;
  * that changes based on the selected operation.
  */
 
-public class Account extends JFrame {
-    private JTextField accountNumberField;
+public class Account extends JPanel {
     private JTextField amountField;
+    private String loggedInUsername;
+    private String userAccountNumber;
+    private double balance;
+    private JPanel mainPanel;
+
+
+    public Account(String username, String accountNumber) {
+        this.loggedInUsername = username;
+        this.userAccountNumber = accountNumber;
+        this.balance = AccountManager.getBalance(accountNumber);
+        initializeUI();
+    }
+
 
     /**
      * Constructor for the Account class.
      * Initializes and sets up the main account interface.
      */
-    public Account() {
-        setTitle("Bank Account");
-        setSize(600, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
 
+    public void initializeUI() {
         setLayout(new BorderLayout());
+        setSize(600, 400);
+
 
         // Create and add the title panel
         JPanel titlePanel = createTitlePanel();
@@ -151,12 +161,25 @@ public class Account extends JFrame {
                 playVoiceEffect("src/main/resources/voice-effect/balance_voice_effect.wav");
                 break;
             case "Logout":
-                dispose();
-                playVoiceEffect("src/main/resources/voice-effect/goodbye_voice_effect.wav");
+                logout();
                 return;
         }
         mainPanel.revalidate();
         mainPanel.repaint();
+    }
+    //method for Logout
+    private void logout() {
+        JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(this);
+        frame.dispose();
+        playVoiceEffect("src/main/resources/voice-effect/goodbye_voice_effect.wav");
+        SwingUtilities.invokeLater(() -> {
+            JFrame loginFrame = new JFrame("Login");
+            loginFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            loginFrame.setContentPane(new Login());
+            loginFrame.pack();
+            loginFrame.setLocationRelativeTo(null);
+            loginFrame.setVisible(true);
+        });
     }
 
     /**
@@ -180,17 +203,17 @@ public class Account extends JFrame {
      * Creates the deposit panel for handling deposit operations.
      *
      * @return JPanel The created deposit panel
+     * @ Revision of 1.0.0 - 06/22/2024 - Gabriel - Initial coding
      */
     private JPanel createDepositPanel() {
-        JPanel depositPanel = new JPanel(new GridLayout(4, 1));
+        JPanel depositPanel = new JPanel(new GridLayout(3, 1));
         JLabel titleLabel = new JLabel("Deposit", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
-        accountNumberField = new JTextField(10);
         amountField = new JTextField(10);
-        JButton depositButton = createOperationButton("Deposit", "Deposit successful! Amount: ", "src/main/resources/voice-effect/deposit_voice_effect.wav");
+        JButton depositButton = new JButton("Deposit");
+        depositButton.addActionListener(e -> deposit());
 
         depositPanel.add(titleLabel);
-        depositPanel.add(createLabeledField("Account Number:", accountNumberField));
         depositPanel.add(createLabeledField("Amount:", amountField));
         depositPanel.add(depositButton);
 
@@ -201,17 +224,17 @@ public class Account extends JFrame {
      * Creates the withdrawal panel for handling withdrawal operations.
      *
      * @return JPanel The created withdraw panel
+     * @ Revision of 1.0.0 - 06/22/2024 - Gabriel - Initial coding
      */
     private JPanel createWithdrawPanel() {
-        JPanel withdrawPanel = new JPanel(new GridLayout(4, 1));
+        JPanel withdrawPanel = new JPanel(new GridLayout(3, 1));
         JLabel titleLabel = new JLabel("Withdraw", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
-        accountNumberField = new JTextField(10);
         amountField = new JTextField(10);
-        JButton withdrawButton = createOperationButton("Withdraw", "Withdraw successful! Amount: ", "src/main/resources/voice-effect/withdraw_voice_effect.wav");
+        JButton withdrawButton = new JButton("Withdraw");
+        withdrawButton.addActionListener(e -> withdraw());
 
         withdrawPanel.add(titleLabel);
-        withdrawPanel.add(createLabeledField("Account Number:", accountNumberField));
         withdrawPanel.add(createLabeledField("Amount:", amountField));
         withdrawPanel.add(withdrawButton);
 
@@ -224,15 +247,14 @@ public class Account extends JFrame {
      * @return JPanel The created balance inquiry panel
      */
     private JPanel createBalanceInquiryPanel() {
-        JPanel balanceInquiryPanel = new JPanel(new GridLayout(4, 1));
+        JPanel balanceInquiryPanel = new JPanel(new GridLayout(2, 1));
         JLabel titleLabel = new JLabel("Balance Inquiry", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
-        accountNumberField = new JTextField(10);
-        JButton balanceInquiryButton = createBalanceInquiryButton();
+        JLabel balanceLabel = new JLabel("Current Balance: ₱" + balance, JLabel.CENTER);
+        balanceLabel.setFont(new Font("Arial", Font.PLAIN, 16));
 
         balanceInquiryPanel.add(titleLabel);
-        balanceInquiryPanel.add(createLabeledField("Account Number:", accountNumberField));
-        balanceInquiryPanel.add(balanceInquiryButton);
+        balanceInquiryPanel.add(balanceLabel);
 
         return balanceInquiryPanel;
     }
@@ -243,6 +265,7 @@ public class Account extends JFrame {
      * @param labelText The text for the label
      * @param textField The JTextField to be labeled
      * @return JPanel A panel containing the label and text field
+     * @ Revision of 1.0.0 - 06/22/2024 - Gabriel - Initial coding
      */
     private JPanel createLabeledField(String labelText, JTextField textField) {
         JPanel panel = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -251,45 +274,58 @@ public class Account extends JFrame {
         return panel;
     }
 
-    /**
-     * Creates a button for deposit or withdraw operations.
-     *
-     * @param buttonText The text to display on the button
-     * @param successMessage The message to display on successful operation
-     * @param voiceEffectPath The path to the voice effect file
-     * @return JButton The created operation button
-     */
-    private JButton createOperationButton(String buttonText, String successMessage, String voiceEffectPath) {
-        JButton button = new JButton(buttonText);
-        button.addActionListener(e -> {
+    private void deposit() {
+        try {
             double amount = Double.parseDouble(amountField.getText());
-            JOptionPane.showMessageDialog(Account.this, successMessage + amount);
-            playVoiceEffect(voiceEffectPath);
-        });
-        return button;
+            if (amount > 0) {
+                boolean success = AccountManager.deposit(userAccountNumber, amount);
+                if (success) {
+                    balance = AccountManager.getBalance(userAccountNumber);
+                    JOptionPane.showMessageDialog(this, "Deposit successful! Amount: ₱" + amount);
+                    playVoiceEffect("src/main/resources/voice-effect/deposit_voice_effect.wav");
+                } else {
+                    JOptionPane.showMessageDialog(this, "Deposit failed. Please try again.");
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "Invalid amount. Please enter a positive number.");
+            }
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this, "Invalid amount. Please enter a valid number.");
+        }
     }
 
-    /**
-     * Creates a button for balance inquiry operation.
-     *
-     * @return JButton The created balance inquiry button
-     */
-    private JButton createBalanceInquiryButton() {
-        JButton balanceInquiryButton = new JButton("Check Balance");
-        balanceInquiryButton.addActionListener(e -> {
-            String accountNumber = accountNumberField.getText();
-            JOptionPane.showMessageDialog(Account.this, "Balance for Account Number " + accountNumber + " is ");
-            playVoiceEffect("src/main/resources/voice-effect/balance_voice_effect.wav");
-        });
-        return balanceInquiryButton;
+    private void withdraw() {
+        try {
+            double amount = Double.parseDouble(amountField.getText());
+            if (amount > 0) {
+                boolean success = AccountManager.withdraw(userAccountNumber, amount);
+                if (success) {
+                    balance = AccountManager.getBalance(userAccountNumber);
+                    JOptionPane.showMessageDialog(this, "Withdrawal successful! Amount: ₱" + amount);
+                    playVoiceEffect("src/main/resources/voice-effect/withdraw_voice_effect.wav");
+                } else {
+                    JOptionPane.showMessageDialog(this, "Withdrawal failed. Insufficient funds or invalid amount.");
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "Invalid amount. Please enter a positive number.");
+            }
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this, "Invalid amount. Please enter a valid number.");
+        }
     }
 
-    /**
-     * Main method to run the Account application.
-     *
-     * @param args Command line arguments (not used)
-     */
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new Account().setVisible(true));
-    }
+
+/**
+ private void checkBalance() {
+ String accountNumber = accountNumberField.getText();
+ if (AccountManager.accountExists(accountNumber)) {
+ double balance = AccountManager.getBalance(accountNumber);
+ JOptionPane.showMessageDialog(this, "Balance for Account Number " + accountNumber + " is " + balance);
+ playVoiceEffect("src/main/resources/voice-effect/balance_voice_effect.wav");
+ } else {
+ JOptionPane.showMessageDialog(this, "Account not found.");
+ }
+ }
+ **/
+
 }
