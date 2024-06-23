@@ -293,6 +293,8 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
     
 # 📫 Changelogs 
 
+Chronological list of updates, bug fixes, new features, and other modifications for our Artificial Ledger Technology Bank System Appplication.
+
 ## [4.1.4] - 2024-06-8      
 ### Added
 - 💻 Professor Jay discus the Final Project requirements for out project  
@@ -353,7 +355,6 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [6.1.4] - 2024-06-22 
 ### Activity 
-- ✨ Coming Soon
-
+- ✨ Thesis defense for our Final Project
 
 #### [Back to Table of Content](#introduction)
