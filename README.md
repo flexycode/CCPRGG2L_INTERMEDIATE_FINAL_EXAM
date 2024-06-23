@@ -294,14 +294,65 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 # 📫 Changelogs 
 
 ## [4.1.4] - 2024-06-8      
-### Added  
+### Added
+- 💻 Professor Jay discus the Final Project requirements for out project  
 - ✨ Coming Soon 💻 🚀
 - ✨ Coming Soon 🧠 🔑
 
-### Changed
+## [4.1.4] - 2024-06-9 
+- ✨ Brainstorming for our Project requirements
+- ✨
+
+## [4.1.4] - 2024-06-10 
+### Activity 
 - ✨ Coming Soon
 
-### Fixed 
+## [4.1.4] - 2024-06-11 
+### Activity 
+- ✨ Coming Soon
+
+## [4.1.4] - 2024-06-12 
+### Activity 
+- ✨ Coming Soon
+
+## [4.1.4] - 2024-06-13 
+### Activity 
+- ✨ Coming Soon
+
+## [4.1.4] - 2024-06-14 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-15 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-16 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-17 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-18 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-19 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-20 
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-21
+### Activity 
+- ✨ Coming Soon
+
+## [6.1.4] - 2024-06-22 
+### Activity 
 - ✨ Coming Soon
 
 
