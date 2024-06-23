@@ -240,7 +240,12 @@ Example: C:\Users\eimifukuda\IdeaProjects\ArtificialLedger\
 
 <img src="images/image-12.png">
 
-# 🏆 Contributing    
+### Quality Assurance Testing
+
+<img src="images/image-17.png">
+<img src="images/image-18.png">
+
+# 🏆 Contributing     
 
 ### Contributing     
 If you would like to contribute to the Banking System, please follow these steps:
