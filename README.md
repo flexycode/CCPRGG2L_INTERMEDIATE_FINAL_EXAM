@@ -307,16 +307,17 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 - ✨ Coming Soon 🧠 🔑
 
 ## [4.1.4] - 2024-06-9 
+### Activity
 - ✨ Brainstorming for our Project requirements
-- ✨
+- ✨ Agile Scrum througout MS Teams  
 
 ## [4.1.4] - 2024-06-10 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Jay managed to create a Kanban Board for our 2 weeks sprint task
 
 ## [4.1.4] - 2024-06-11 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Jay succesfully created the project repository in the GITHUB and distributed the assign tasks to all members 
 
 ## [4.1.4] - 2024-06-12 
 ### Activity 
@@ -326,39 +327,40 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 ### Activity 
 - ✨ Coming Soon
 
-## [4.1.4] - 2024-06-14 
+## [6.1.1] - 2024-06-14 
 ### Activity 
 - ✨ Coming Soon
 
-## [6.1.4] - 2024-06-15 
+## [6.2.1] - 2024-06-15 
 ### Activity 
 - ✨ Coming Soon
 
-## [6.1.4] - 2024-06-16 
+## [6.3.1] - 2024-06-16 
 ### Activity 
 - ✨ Coming Soon
 
-## [6.1.4] - 2024-06-17 
+## [6.4.1] - 2024-06-17 
 ### Activity 
 - ✨ Coming Soon
 
-## [6.1.4] - 2024-06-18 
+## [6.5.1] - 2024-06-18 
 ### Activity 
 - ✨ Coming Soon
-
-## [6.1.4] - 2024-06-19 
+ 
+## [6.6.4] - 2024-06-19 
 ### Activity 
 - ✨ Coming Soon 
 
-## [6.1.4] - 2024-06-20 
+## [6.7.4] - 2024-06-20 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Anilov finalizing the Software Development Life Cycle documentation
 
-## [6.1.4] - 2024-06-21
+## [6.8.2] - 2024-06-21
 ### Activity 
-- ✨ Coming Soon
+- ✨ Gabriel debugged the Account class and fixed some method in Login and RegistrationForm Class
+- ✨ Jay added a Pin Code feature that authenticate after successfully sign-in in the Login Class
 
-## [6.1.4] - 2024-06-22 
+## [6.9.1] - 2024-06-22 
 ### Activity 
 - ✨ Thesis defense for our Final Project
 
