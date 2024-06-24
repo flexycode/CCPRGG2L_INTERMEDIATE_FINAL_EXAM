@@ -308,8 +308,8 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [4.1.4] - 2024-06-9 
 ### Activity
-- ✨ Brainstorming for our Project requirements
-- ✨ Agile Scrum througout MS Teams  
+- ✨ Brainstorming for our Project requirements 
+- ✨ Anilov set our first Agile Scrum meeting througout MS Teams to discuss the Project needs and requirements throughout the given 2 weeks sprint.
 
 ## [4.1.4] - 2024-06-10 
 ### Activity 
@@ -325,7 +325,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [4.1.4] - 2024-06-13 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Kristine setup our second meeting via Microsoft Teams to discuss the progress of the project
 
 ## [6.1.1] - 2024-06-14 
 ### Activity 
@@ -333,7 +333,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.2.1] - 2024-06-15 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Anilov & Kristine setup our third meeting via Microsoft Teams to discuss the progress of our project
 
 ## [6.3.1] - 2024-06-16 
 ### Activity 
@@ -349,7 +349,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
  
 ## [6.6.4] - 2024-06-19 
 ### Activity 
-- ✨ Coming Soon 
+- ✨ Anilov & Kristine setup our fourth meeting via Microsoft Teams to discuss the progress of our project 
 
 ## [6.7.4] - 2024-06-20 
 ### Activity 
