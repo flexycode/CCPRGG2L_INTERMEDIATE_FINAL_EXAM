@@ -337,7 +337,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.3.1] - 2024-06-16 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Coming Soon...
 
 ## [6.4.1] - 2024-06-17 
 ### Activity 
