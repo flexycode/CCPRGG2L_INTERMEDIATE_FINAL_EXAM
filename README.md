@@ -337,14 +337,14 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.3.1] - 2024-06-16 
 ### Activity 
-- ✨ Coming Soon...
+- ✨ Jay come up with the Maven Structure for our Java OOP. We decided to used this structure because we have so many class and different file type in our respective components such as: .png, .java, .mp4, .jav, .txt, xml )  
 
 ## [6.4.1] - 2024-06-17 
 ### Activity 
 - ✨ Coming Soon
 
 ## [6.5.1] - 2024-06-18 
-### Activity 
+### Activity  
 - ✨ Coming Soon
  
 ## [6.6.4] - 2024-06-19 
