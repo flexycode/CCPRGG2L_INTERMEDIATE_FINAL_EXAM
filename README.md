@@ -329,7 +329,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.1.1] - 2024-06-14 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Gab initiated a temporary project by developing a prototype in Eclipse, which was then distributed to Anilov, Josh, Kristine, and Vince for collaborative development.
 
 ## [6.2.1] - 2024-06-15 
 ### Activity 
@@ -341,7 +341,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.4.1] - 2024-06-17 
 ### Activity 
-- ✨ Coming Soon
+- ✨ Completed a fully functional prototype in Eclipse through combined team efforts. Encompassing core banking operations and basic user data management.
 
 ## [6.5.1] - 2024-06-18 
 ### Activity  
@@ -357,7 +357,11 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.8.2] - 2024-06-21
 ### Activity 
-- ✨ Gabriel debugged the Account class and fixed some method in Login and RegistrationForm Class
+- ✨ Gab successfully merged and optimized methods and logic developed by team members in Eclipse IDE into the main IntelliJ codebase.
+-     Major Improvements:
+      Integrated user data management across Account, AccountManager, and BankAccount classes, ensuring seamless data flow and consistency.
+      Resolved synchronization issues, enhancing overall system reliability and performance.
+      Implemented centralized data operations in AccountManager, reduced redundancy, and improving data integrity.
 - ✨ Jay added a Pin Code feature that authenticate after successfully sign-in in the Login Class
 
 ## [6.9.1] - 2024-06-22 
