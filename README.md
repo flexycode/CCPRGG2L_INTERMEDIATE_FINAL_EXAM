@@ -321,7 +321,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [4.1.4] - 2024-06-12 
 ### Activity 
-- ✨ Coming Soon
+- ✨ All group members start working their assign task throughout the respective Kanban board SDLC
 
 ## [4.1.4] - 2024-06-13 
 ### Activity 
@@ -345,7 +345,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.5.1] - 2024-06-18 
 ### Activity  
-- ✨ Coming Soon
+- ✨ Jay setup the Continous Integration and Continous Deployment of the project. 
  
 ## [6.6.4] - 2024-06-19 
 ### Activity 
@@ -358,7 +358,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 ## [6.8.2] - 2024-06-21
 ### Activity 
 - ✨ Gab successfully merged and optimized methods and logic developed by team members in Eclipse IDE into the main IntelliJ codebase.
--     Major Improvements:
+- ✨ Major Improvements:
       Integrated user data management across Account, AccountManager, and BankAccount classes, ensuring seamless data flow and consistency.
       Resolved synchronization issues, enhancing overall system reliability and performance.
       Implemented centralized data operations in AccountManager, reduced redundancy, and improving data integrity.
