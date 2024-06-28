@@ -1,5 +1,7 @@
 package ArtificialLedger.forms;
 
+import ArtificialLedger.utils.AccountManager;
+
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.ImageIcon;
@@ -18,6 +20,7 @@ import java.io.Serial;
  * 4. Stores user details in a text file for future reference and authentication.
  * 5. Provides immediate feedback upon successful registration.
  * 6. Navigates to the Login page upon successful registration.
+ * 7. Utilizes custom painting for a semi-transparent, rounded rectangle background.
 
  * The form uses a combination of GridBagLayout and GridLayout for flexible and
  * responsive component positioning. It also implements custom background painting
@@ -27,6 +30,7 @@ public class RegistrationForm extends JFrame {
     @Serial
     private static final long serialVersionUID = 1L;
     private static int accountNo = 2024100000; // Starting account number
+    private final JTextField[] textFields;
 
     /**
      * Constructor for the RegistrationForm class.
@@ -71,7 +75,7 @@ public class RegistrationForm extends JFrame {
 
         // Create and add form fields
         int y = 0;
-        JTextField[] textFields = new JTextField[labels.length];
+        textFields = new JTextField[labels.length];
 
         for (String label : labels) {
             gbcForm.gridx = 0;
@@ -107,17 +111,16 @@ public class RegistrationForm extends JFrame {
 
         // Action listener for register button
         registerButton.addActionListener(e -> {
-            // Collect and store user details
-            String[] details = new String[labels.length];
-            for (int i = 0; i < labels.length; i++) {
-                details[i] = labels[i] + " " + textFields[i].getText();
-            }
-            String username = textFields[10].getText();
-            storeDetails(details, username);
+            if (validateInputs()) {
+                String username = textFields[10].getText();
+                String password = new String(((JPasswordField) textFields[11]).getPassword());
+                String initialDeposit = textFields[12].getText();
 
-            // Display success message and close form
-            JOptionPane.showMessageDialog(this, "Thank you! You have successfully registered an account.");
-            dispose();
+                storeDetails(username, password, initialDeposit);
+                JOptionPane.showMessageDialog(this, "Thank you! You have successfully registered an account.");
+                dispose();
+                new Login().setVisible(true);  // Open the Login form after successful registration
+            }
         });
 
         // Add form panel to main panel
@@ -133,6 +136,7 @@ public class RegistrationForm extends JFrame {
      * Creates and returns a styled JLabel for the form title.
      *
      * @return JLabel A styled label with title text and background image
+     * Checks if the pin code is 6 characters long.
      */
     private static JLabel getjLabel() {
         JLabel titleLabel = new JLabel("ALTBank Registration Form", JLabel.CENTER);
@@ -145,29 +149,65 @@ public class RegistrationForm extends JFrame {
         return titleLabel;
     }
 
+    private boolean validateInputs() {
+        for (JTextField field : textFields) {
+            if (field.getText().trim().isEmpty()) {
+                JOptionPane.showMessageDialog(this, "All fields must be filled out.", "Validation Error", JOptionPane.ERROR_MESSAGE);
+                return false;
+            }
+        }
+        try {
+            double deposit = Double.parseDouble(textFields[12].getText());
+            if (deposit < 500) {
+                JOptionPane.showMessageDialog(this, "Initial deposit must be at least 500 PHP.", "Validation Error", JOptionPane.ERROR_MESSAGE);
+                return false;
+            }
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this, "Invalid initial deposit amount.", "Validation Error", JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+
+        // Checks if the pin code is 6 characters long.
+        String pinCode = textFields[9].getText();
+        if (pinCode.length() != 6) {
+            JOptionPane.showMessageDialog(this, "Pin code must be 6 characters long.", "Validation Error", JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+
+        return true;
+    }
+
     /**
      * Stores the registration form details in a text file.
      *
-     * @param details Array of user details collected from the form
-     * @param accountNumber The username, used as part of the file name
+     * @param username        The username entered in the registration form
+     * @param password        The password entered in the registration form
+     * @param initialDeposit  The initial deposit amount entered in the registration form
      */
-    private void storeDetails(String[] details, String accountNumber) {
+    private void storeDetails(String username, String password, String initialDeposit) {
         try {
-            String filePath = "src/main/resources/account-details/" + accountNumber + "_details.txt";
-            FileWriter fileWriter = new FileWriter(filePath, true);
+            String accountNumber = generateAccountNumber();
+            String filePath = "src/main/resources/account-details/" + username + "_details.txt";
+            try (FileWriter fileWriter = new FileWriter(filePath)) {
+                fileWriter.write("Username: " + username + "\n");
+                fileWriter.write("Password: " + password + "\n");
+                fileWriter.write("Account No.: " + accountNumber + "\n");
+                fileWriter.write("Balance: " + initialDeposit + "\n");
 
-            for (String detail : details) {
-                fileWriter.write(detail + "\n");
+                String[] labels = {"First Name:", "Last Name:", "Middle Name:", "Birthday:",
+                        "Gender:", "Father's Name:", "Mother's Name:",
+                        "Contact Number:", "Address:", "Pin Code:"};
+
+                for (int i = 0; i < labels.length; i++) {
+                    fileWriter.write(labels[i] + " " + textFields[i].getText() + "\n");
+                }
             }
-
-            String accountNo = generateAccountNumber();
-            fileWriter.write("Account No.: " + accountNo + "\n");
-
-            fileWriter.close();
-            System.out.println("Registration form details for account number " + accountNumber + " stored successfully.");
-        } catch (IOException e) {
-            System.out.println("An error occurred while storing the registration form details for user " + accountNumber + ".");
-            e.printStackTrace();
+            System.out.println("Registration details for user " + username + " stored successfully.");
+            // Add this line after successfully writing the file:
+            AccountManager.registerNewAccount(username, accountNumber, Double.parseDouble(initialDeposit));
+        } catch (IOException ex) {
+            System.out.println("An error occurred while storing the registration details for user " + username + ".");
+            ex.printStackTrace();
         }
     }
 
