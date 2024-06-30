@@ -337,7 +337,8 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.3.1] - 2024-06-16 
 ### Activity 
-- ✨ Jay come up with the Maven Structure for our Java OOP. We decided to used this structure because we have so many class and different file type in our respective components such as: .png, .java, .mp4, .jav, .txt, xml )  
+- ✨ Jay come up with the Maven Structure for our Java OOP. We decided to used this structure because we have so many class and different file type in our respective components such as: .png, .java, .mp4, .jav, .txt, xml )
+- ✨ Jay developed the Homepage with video file than can intigrate throught Login Form 
 
 ## [6.4.1] - 2024-06-17 
 ### Activity 
@@ -353,7 +354,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 
 ## [6.7.4] - 2024-06-20 
 ### Activity 
-- ✨ Anilov finalizing the Software Development Life Cycle documentation 
+- ✨ Anilov finalized the Software Development Life Cycle documentation 
 
 ## [6.8.2] - 2024-06-21
 ### Activity 
