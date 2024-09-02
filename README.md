@@ -365,10 +365,13 @@ Chronological list of updates, bug fixes, new features, and other modifications 
       Implemented centralized data operations in AccountManager, reduced redundancy, and improving data integrity.
 - ✨ Jay added a Pin Code feature that authenticate after successfully sign-in in the Login Class
 
-- ✨ Jay added a QR Code features that authenticate after successfully sign
 
 ## [6.9.1] - 2024-06-22 
 ### Activity 
 - ✨ Thesis defense for our Final Project
+
+## [6.9.1] - 2024-09-03 
+### Activity 
+- ✨ Jay added a QR Code features that authenticate after successfully sign
 
 #### [Back to Table of Content](#introduction)
